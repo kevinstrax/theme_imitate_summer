@@ -7,15 +7,14 @@
 </head>
 
 <body class="multi {$type}">
-  <div id="divAll">
+  <div class="container" id="divAll">
     <div id="divPage">
       <div id="divMiddle">
-        <div id="divTop">
-          <h1 id="BlogTitle"><a href="{$host}">{$name}</a></h1>
-          <h3 id="BlogSubTitle">{$subname}</h3>
+        <div id="divTop" class="row header">
+          <h1 id="BlogTitle" class="col-sm header-logo"><a href="{$host}">{$name}</a></h1>
         </div>
-        <div id="divNavBar">
-          <ul>
+        <div id="divNavBar" class="row">
+          <ul class="col-md nav">
             {module:navbar}
           </ul>
         </div>
