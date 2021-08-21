@@ -1,10 +1,12 @@
 {* Template Name:公共头部 *}
-
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-<meta name="generator" content="{$zblogphp}" />
 <meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{$name}-{$title}</title>
+<link rel="stylesheet" href="{$host}zb_users/theme/{$theme}/css/bootstrap.min.css">
 <link rel="stylesheet" rev="stylesheet" href="{$host}zb_users/theme/{$theme}/style/{$style}.css?{$themeinfo['modified']}" type="text/css" media="all" />
 <script src="{$host}zb_system/script/jquery-2.2.4.min.js?v={$version}"></script>
 <script src="{$host}zb_system/script/zblogphp.js?v={$version}"></script>
@@ -15,4 +17,7 @@
 <link rel="alternate" type="application/rss+xml" href="{$feedurl}" title="{$name}" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="{$host}zb_system/xml-rpc/?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{$host}zb_system/xml-rpc/wlwmanifest.xml" />
+<link rel="apple-touch-icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="180x180">
+<link rel="icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="32x32" type="image/png">
+<link rel="icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="16x16" type="image/png">
 {/if}
