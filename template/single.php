@@ -10,23 +10,27 @@
   <div class="container" id="divAll">
     <div id="divPage">
       <div id="divMiddle">
-        <div id="divTop" class="row header">
-          <h1 id="BlogTitle" class="col-sm header-logo"><a href="{$host}">{$name}</a></h1>
+        <div class="header-wrap">
+          <div id="divTop" class="row header">
+            <h1 id="BlogTitle" class="col-sm header-logo"><a href="{$host}">{$name}</a></h1>
+          </div>
+          <div id="divNavBar" class="row">
+            <ul class="col-md nav">
+              {$modules['navbar'].Content}
+            </ul>
+          </div>
         </div>
-        <div id="divNavBar" class="row">
-          <ul class="col-md nav">
-            {$modules['navbar'].Content}
-          </ul>
-        </div>
-        <div id="divMain">
-          {if $article.Type==ZC_POST_TYPE_ARTICLE}
-          {template:post-single}
-          {else}
-          {template:post-page}
-          {/if}
-        </div>
-        <div id="divSidebar">
-          {template:sidebar}
+        <div class="row main-content">
+          <div id="divMain">
+            {if $article.Type==ZC_POST_TYPE_ARTICLE}
+            {template:post-single}
+            {else}
+            {template:post-page}
+            {/if}
+          </div>
+          <div id="divSidebar">
+            {template:sidebar}
+          </div>
         </div>
         {template:footer}
       </div>
