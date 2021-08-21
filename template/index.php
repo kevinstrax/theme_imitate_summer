@@ -10,29 +10,35 @@
   <div class="container" id="divAll">
     <div id="divPage">
       <div id="divMiddle">
-        <div id="divTop" class="row header">
-          <h1 id="BlogTitle" class="col-sm header-logo"><a href="{$host}">{$name}</a></h1>
+        <div class="header-wrap">
+          <div id="divTop" class="row header">
+            <h1 id="BlogTitle" class="col-sm header-logo"><a href="{$host}">{$name}</a></h1>
+          </div>
+          <div id="divNavBar" class="row">
+            <ul class="col-md nav">
+              {module:navbar}
+            </ul>
+          </div>
         </div>
-        <div id="divNavBar" class="row">
-          <ul class="col-md nav">
-            {module:navbar}
-          </ul>
-        </div>
-        <div id="divMain">
-          {foreach $articles as $article}
+        
+        <div class="row main-content">
+          <div id="divMain" class="col-md-9 order-md-2">
+            {foreach $articles as $article}
 
-          {if $article.TopType}
-          {template:post-istop}
-          {else}
-          {template:post-multi}
-          {/if}
+            {if $article.TopType}
+            {template:post-istop}
+            {else}
+            {template:post-multi}
+            {/if}
 
-          {/foreach}
-          <div class="pagebar">{template:pagebar}</div>
+            {/foreach}
+            <div class="pagebar">{template:pagebar}</div>
+          </div>
+          <div id="divSidebar" class="col-md-3 order-md-1">
+            {template:sidebar}
+          </div>
         </div>
-        <div id="divSidebar">
-          {template:sidebar}
-        </div>
+        
         {template:footer}
       </div>
       <div class="clear"></div>
