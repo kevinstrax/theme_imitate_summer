@@ -7,8 +7,11 @@ body {
     background: url('../images/header.jpg') no-repeat right top;
 }
 
+.header-wrap {
+    height: 176px;
+}
+
 .header {
-    /*border: 1px solid red;*/
     padding-top: 30px;
     padding-bottom: 30px;
     height: 106px;
@@ -19,7 +22,6 @@ body {
     font-weight: bold;
     height: 80px;
     margin-top: 10px;
-    /*margin-left: 15px;*/
     line-height: 1.5em;
 }
 .header .header-logo > a {
@@ -31,7 +33,6 @@ body {
 }
 
 .nav {
-    /*margin-left: 15px;*/
 }
 
 .nav > li > a {
@@ -58,6 +59,50 @@ body {
 .main {
     min-height: 480px;
 }
+
+/*首页文章列表部分 start*/
+.post {
+    margin-bottom: 20px;
+}
+
+.post .post-title {
+    font-size: 110%;
+    font-weight: bold;
+    float: right;
+    line-height: 1.5em;
+    width: 100%;
+    clear: both;
+}
+
+.post .post-title > a {
+    color: #4c4f8b;
+}
+
+.post .post-title > a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.post .post-body {
+    line-height: 1.5em;
+    width: 100%;
+    padding: 10px 0;
+}
+.post .post-body > p {
+    margin: 0;
+}
+.post .post-footer {
+    width: 100%;
+    clear: both;
+    text-align: right;
+    padding-right: 5px;
+    color: #666;
+    margin-top: 5px;
+    font-size: 9pt;
+}
+
+
+/*end 首页文章列表部分*/
 
 
 .footer {
