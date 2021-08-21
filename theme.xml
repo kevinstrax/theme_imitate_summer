@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>theme_imitate_summer</id>
+<name>仿summer主题</name>
+<url>https://www.xiaokuango.com</url>
+<note>自己通过模仿博客园summer主题重制的一个zblog主题</note>
+<description></description>
+<path></path>
+<include></include>
+<level>1</level>
+<author>
+  <name>kevinstrax</name>
+  <email>dtkviolin@qq.com</email>
+  <url>https://www.xiaokuango.com</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>172955</adapted>
+<version>1.0</version>
+<pubdate>2021-08-21</pubdate>
+<modified>2021-08-21</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+  <sidebar6></sidebar6>
+  <sidebar7></sidebar7>
+  <sidebar8></sidebar8>
+  <sidebar9></sidebar9>
+</sidebars>
+</theme>
