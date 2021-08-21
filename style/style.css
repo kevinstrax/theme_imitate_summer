@@ -1,2 +1,73 @@
-@import '../css/bootstrap.min.css'
+body {
+    background:transparent url('../images/bg.jpg') repeat-x;
+    background-color: #faf7ef;
+    font-size: 9pt;
+}
+.container {
+    background: url('../images/header.jpg') no-repeat right top;
+}
+
+.header {
+    /*border: 1px solid red;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 106px;
+    
+}
+.header .header-logo {
+    font-size: 200%;
+    font-weight: bold;
+    height: 80px;
+    margin-top: 10px;
+    /*margin-left: 15px;*/
+    line-height: 1.5em;
+}
+.header .header-logo > a {
+    color: #4c4f8b;
+}
+.header .header-logo > a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.nav {
+    /*margin-left: 15px;*/
+}
+
+.nav .nav-link {
+    color: #666;
+}
+.nav .nav-link:hover {
+    color: orange;
+}
+
+.blog-status {
+    text-align: right;
+    margin-top: 8px;
+    color: #999;
+}
+.blog-status .status-nums {
+    font-style: normal;
+}
+
+.main {
+    min-height: 480px;
+}
+
+
+.footer {
+    text-align: center;
+    height: 81px;
+    margin-top: 10px;
+    background: url(../images/footer.jpg) no-repeat 120px 0;
+    padding-top: 35px;
+    flex-direction: column;
+}
+.footer .footer-copyright {
+    margin-bottom: 4px;
+}
+
+.footer .footer-copyright > a {
+    color: #212529;
+}
 
