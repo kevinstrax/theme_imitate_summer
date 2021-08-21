@@ -17,6 +17,12 @@ a:hover {
     body {
         font-size: 14px;
     }
+    .post.single .post-tags {
+        font-size: 14px;
+    }
+    .post .post-footer {
+        font-size: 14px;
+    }
 }
 
 
@@ -88,6 +94,7 @@ a:hover {
     line-height: 1.5em;
     width: 100%;
     clear: both;
+    margin: 0;
 }
 
 .post .post-title > a {
@@ -296,8 +303,8 @@ a:hover {
     height: 81px;
     margin-top: 10px;
     background: url(../images/footer.jpg) no-repeat 120px 0;
-    padding-top: 35px;
-    flex-direction: column;
+    padding-top: 30px;
+    display: block;
 }
 .footer .footer-copyright {
     margin-bottom: 4px;

@@ -3,7 +3,7 @@
 	<h2 class="post-title">{$article.Title}</h2>
 	<div class="post-body">{$article.Content}</div>
 	<h5 class="post-tags">
-                {if count($article.Tags)>0}{$lang['msg']['tags']}:{foreach $article.Tags as $i => $tag}&nbsp;<a href='{$tag.Url}' title='{$tag.Name}'>{$tag.Name}</a>&nbsp;{if count($article.Tags) > $i}<small>,</small>{/if}{/foreach}{/if}
+                {if count($article.Tags)>0}{$lang['msg']['tags']}:{foreach $article.Tags as $i => $tag}&nbsp;<a href='{$tag.Url}' title='{$tag.Name}'>{$tag.Name}</a>&nbsp;{/foreach}{/if}
 	</h5>
 	<h6 class="post-footer">
 		<span class="post-date">{$article.Time()}</span>
