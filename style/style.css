@@ -114,6 +114,24 @@ a:hover {
 /*end 首页文章列表部分*/
 
 /*sideBar start*/
+#divSidebar .function .function_c ul {
+    list-style: none;
+    padding: 0;
+}
+
+#divSidebar .function .function_c input[type="text"] {
+    width: 140px;
+}
+
+#divSidebar .function .function_c ul {
+    line-height: 1.5em;
+}
+
+#divSidebar .function .function_c ul li a {
+    color: #88866f;
+}
+
+
 #tbCalendar {
     width: 229px;
     line-height: 1.5em;
@@ -183,6 +201,15 @@ a:hover {
 #tbCalendar td a:hover {
     background-color:  #4c4f8b;
 }
+
+#divSidebar .function .function_t {
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 15px 0 5px 0;
+    text-align: center;
+    color: #6466b3;
+}
+
 
 /*end sideBar*/
 
