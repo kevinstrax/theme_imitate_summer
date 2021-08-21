@@ -13,6 +13,12 @@ a:hover {
     }
 }
 
+@media (max-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 
 .container {
     background: url('../images/header.jpg') no-repeat right top;
@@ -111,6 +117,13 @@ a:hover {
     margin-top: 5px;
     font-size: 9pt;
 }
+.pagebar {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.pagebar a {
+    color: #333;
+}
 /*end 首页文章列表部分*/
 
 /*sideBar start*/
@@ -124,7 +137,7 @@ a:hover {
 }
 
 #divSidebar .function .function_t:first-child {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 #divSidebar .function .function_c ul {
@@ -234,4 +247,4 @@ a:hover {
     color: #212529;
 }
 
-	
+    
