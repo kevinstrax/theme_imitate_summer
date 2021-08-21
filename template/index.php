@@ -7,7 +7,7 @@
 </head>
 
 <body class="multi {$type}">
-  <div id="divAll" class="container">
+  <div class="container" id="divAll">
     <div id="divPage">
       <div id="divMiddle">
         <div id="divTop">
