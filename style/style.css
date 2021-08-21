@@ -251,6 +251,10 @@ a:hover {
     border-bottom: 1px solid #666;
 }
 
+.post.single .post-body {
+    font-size: 14px;
+}
+
 .post.single .post-tags a {
     text-decoration: underline; 
     color: #4c4f8b;
