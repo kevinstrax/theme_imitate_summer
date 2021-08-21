@@ -21,14 +21,14 @@
           </div>
         </div>
         <div class="row main-content">
-          <div id="divMain">
+          <div id="divMain" class="col-md-8 order-md-2">
             {if $article.Type==ZC_POST_TYPE_ARTICLE}
             {template:post-single}
             {else}
             {template:post-page}
             {/if}
           </div>
-          <div id="divSidebar">
+          <div id="divSidebar" class="col-md-4 order-md-1">
             {template:sidebar}
           </div>
         </div>

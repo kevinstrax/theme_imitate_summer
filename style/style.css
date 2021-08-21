@@ -3,6 +3,9 @@ body {
     background-color: #faf7ef;
     font-size: 9pt;
 }
+a:hover {
+    text-decoration: none;
+}
 .container {
     background: url('../images/header.jpg') no-repeat right top;
 }
@@ -100,10 +103,80 @@ body {
     margin-top: 5px;
     font-size: 9pt;
 }
-
-
 /*end 首页文章列表部分*/
 
+/*sideBar start*/
+#tbCalendar {
+    width: 229px;
+    line-height: 1.5em;
+    color: #666;
+    
+}
+
+#tbCalendar caption {
+    caption-side: top;
+    padding: 0;
+    width: 100%;
+    color: #333;
+    text-align: center;
+    border-bottom: 1px solid #666;
+}
+
+#tbCalendar caption a:first-child {
+    font-weight: bold;
+    float: left;
+    margin-left: 8px;
+}
+
+#tbCalendar caption a:first-child:hover {
+    background-color:  #4c4f8b;
+}
+
+#tbCalendar caption a:last-child {
+     font-weight: bold;
+     float: right;
+     margin-right: 8px;
+}
+
+#tbCalendar caption a:last-child:hover {
+    background-color:  #4c4f8b;
+}
+
+
+#tbCalendar caption a {
+    color: #333;
+
+}
+
+#tbCalendar thead {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+#tbCalendar thead tr th small {
+    font-weight: bold;
+    text-align: center;
+}
+
+#tbCalendar tbody {
+    text-align: center;
+}
+
+#tbCalendar td {
+    padding: 0;
+}
+
+#tbCalendar td a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#tbCalendar td a:hover {
+    background-color:  #4c4f8b;
+}
+
+/*end sideBar*/
 
 .footer {
     text-align: center;

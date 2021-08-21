@@ -20,9 +20,8 @@
             </ul>
           </div>
         </div>
-        
         <div class="row main-content">
-          <div id="divMain" class="col-md-9 order-md-2">
+          <div id="divMain" class="col-md-8 order-md-2">
             {foreach $articles as $article}
 
             {if $article.TopType}
@@ -34,7 +33,7 @@
             {/foreach}
             <div class="pagebar">{template:pagebar}</div>
           </div>
-          <div id="divSidebar" class="col-md-3 order-md-1">
+          <div id="divSidebar" class="col-md-4 order-md-1">
             {template:sidebar}
           </div>
         </div>
