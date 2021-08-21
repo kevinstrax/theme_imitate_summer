@@ -1,1 +1,9 @@
-console.log("在博客园看到了这个summer博客主题，一眼就喜欢上了\n于是照着仿写了一个\n在此，我对原作者表示诚挚感谢！")
+var targetProtocol = "https:";
+
+if (window.location.protocol != targetProtocol){
+
+window.location.href = targetProtocol + window.location.href.substring(window.location.protocol.length);
+
+}
+
+console.log("hello")
