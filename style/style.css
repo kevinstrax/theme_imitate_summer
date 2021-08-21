@@ -114,6 +114,19 @@ a:hover {
 /*end 首页文章列表部分*/
 
 /*sideBar start*/
+
+#divSidebar .function .function_t {
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 15px 0 5px 0;
+    text-align: center;
+    color: #6466b3;
+}
+
+#divSidebar .function .function_t:first-child {
+	margin-top: 0;
+}
+
 #divSidebar .function .function_c ul {
     list-style: none;
     padding: 0;
@@ -202,14 +215,6 @@ a:hover {
     background-color:  #4c4f8b;
 }
 
-#divSidebar .function .function_t {
-    font-weight: bold;
-    line-height: 1.5em;
-    margin: 15px 0 5px 0;
-    text-align: center;
-    color: #6466b3;
-}
-
 
 /*end sideBar*/
 
@@ -229,3 +234,4 @@ a:hover {
     color: #212529;
 }
 
+	
