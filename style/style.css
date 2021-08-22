@@ -239,7 +239,7 @@ a:hover {
 
 
 /*文章页 start*/
-.post.single .post-title {
+.post.single,.post.page .post-title {
     font-size: 130%;
     color: #6466b3;
     margin-bottom: 20px;
