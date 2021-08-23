@@ -2,6 +2,7 @@ body {
     background:transparent url('../images/bg.jpg') repeat-x;
     background-color: #faf7ef;
     font-size: 9pt;
+    counter-reset: comment;
 }
 a:hover {
     text-decoration: none;
@@ -10,21 +11,6 @@ a:hover {
 @media (min-width: 992px) {
     .container, .container-lg, .container-md, .container-sm {
         max-width: 1080px;
-    }
-}
-
-@media (max-width: 992px) {
-    body {
-        font-size: 14px;
-    }
-    .post.single .post-tags {
-        font-size: 14px;
-    }
-    .post.page .post-tags {
-        font-size: 14px;
-    }
-    .post .post-footer {
-        font-size: 14px;
     }
 }
 
@@ -356,6 +342,52 @@ a:hover {
     margin: 0;
 }
 
+.msg {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.msg .msgname:before {
+    counter-increment: comment;
+    content: "#" counter(comment) "楼";
+}
+
+.msg .msgname {
+    color: #666;
+}
+.msg .msgname > small {
+    font-size: 9pt;
+}
+.msg .msgname > small:after {
+    content: "|";
+}
+.msg .msgname .commentname > a {
+    color: #666;
+}
+.msg .msgname .commentname > a:hover {
+    color: orange;
+}
+.msg .msgname .revertcomment > a {
+    float: right;
+    color: #666;
+    padding-right: 2px;
+}
+.msg .msgname .revertcomment > a:hover {
+    color: orange;
+}
+
+.msg .msgarticle {
+    border-bottom: 1px solid #ccc;
+    background: url(../images/comment.gif) no-repeat 5px 0;
+    padding: 15px 18px 10px 40px;
+    min-height: 80px;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+
 #divCommentPost #txaArticle {
     outline: none;
     padding: 8px 14px;
@@ -393,4 +425,22 @@ a:hover {
     color: #212529;
 }
 
+
+@media (max-width: 992px) {
+    body {
+        font-size: 14px;
+    }
+    .post.single .post-tags {
+        font-size: 14px;
+    }
+    .post.page .post-tags {
+        font-size: 14px;
+    }
+    .post .post-footer {
+        font-size: 14px;
+    }
+    .msg .msgname > small {
+        font-size: 14px;
+    }
+}
     
