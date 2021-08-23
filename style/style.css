@@ -133,6 +133,57 @@ a:hover {
 .pagebar a {
     color: #333;
 }
+
+
+/*正文富文本调整 start*/
+.post-body h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.post-body h1 {
+    font-size: 28px;
+    line-height: 1.5;
+}
+.post-body h2 {
+    font-size: 21px;
+    line-height: 1.5;
+}
+.post-body h3 {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.post-body h4 {
+    font-size: 14px;
+}
+.post-body h5 {
+    font-size: 12px;
+}
+.post-body h6 {
+    font-size: 11px;
+}
+
+.post-body blockquote {
+    background: none;
+    border-left: 3px solid #e2dfdf;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: #555;
+}
+
+.post-body blockquote {
+    background: url(../images/comment.gif) no-repeat 25px 0;
+    padding: 10px 60px 5px 60px;
+    min-height: 35px;
+    _height: 35px;
+    line-height: 1.6em;
+    color: #333;
+}
+/*end 正文富文本调整*/
+
+
 /*end 首页文章列表部分*/
 
 /*sideBar start*/
