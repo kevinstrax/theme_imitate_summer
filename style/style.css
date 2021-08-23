@@ -350,6 +350,7 @@ a:hover {
 
 .msg .msgname {
     color: #666;
+    margin-top: 5px;
 }
 .msg .msgname .avatar {
     max-width: 16px;
@@ -358,7 +359,7 @@ a:hover {
 .msg .msgname > small {
     font-size: 9pt;
 }
-.msg .msgname > small:after {
+.msg .msgname > small:before {
     content: "|";
 }
 .msg .msgname .commentname > a {
@@ -383,6 +384,7 @@ a:hover {
     min-height: 80px;
     margin-bottom: 1em;
     line-height: 1.5em;
+    margin-top: 5px;
 }
 
 #cancel-reply {
