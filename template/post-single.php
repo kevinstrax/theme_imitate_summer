@@ -7,7 +7,7 @@
 	</h5>
 	<h6 class="post-footer">
 		<span class="post-date">{$article.Time()}</span>
-		{$lang['msg']['author']}:{$article.Author.StaticName} <small>|</small> {$lang['msg']['category']}:{$article.Category.Name} <small>|</small> {$lang['default']['view']}:{$article.ViewNums} <small>|</small> {$lang['msg']['comment']}:{$article.CommNums}
+		{$lang['msg']['author']}:{$article.Author.StaticName} <small>|</small> {$lang['msg']['category']}:{$article.Category.Name} <small>|</small> 阅读:{$article.ViewNums} <small>|</small> {$lang['msg']['comment']}:{$article.CommNums}
 	</h6>
 </div>
 
