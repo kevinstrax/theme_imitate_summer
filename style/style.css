@@ -2,7 +2,6 @@ body {
     background:transparent url('../images/bg.jpg') repeat-x;
     background-color: #faf7ef;
     font-size: 9pt;
-    counter-reset: comment;
 }
 a:hover {
     text-decoration: none;
@@ -349,13 +348,12 @@ a:hover {
     margin-bottom: 0;
 }
 
-.msg .msgname:before {
-    counter-increment: comment;
-    content: "#" counter(comment) "楼";
-}
-
 .msg .msgname {
     color: #666;
+}
+.msg .msgname .avatar {
+    max-width: 16px;
+    vertical-align: text-bottom;
 }
 .msg .msgname > small {
     font-size: 9pt;
