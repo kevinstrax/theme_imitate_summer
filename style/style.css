@@ -356,7 +356,7 @@ a:hover {
     margin: 0;
 }
 
-#divCommentPost .text {
+#divCommentPost #txaArticle {
     outline: none;
     padding: 8px 14px;
     background-color: #fff;
