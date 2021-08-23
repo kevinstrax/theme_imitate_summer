@@ -111,7 +111,13 @@ a:hover {
     margin-top: 5px;
     font-size: 9pt;
     font-weight: normal;
+    word-break: keep-all;
 }
+
+.post .post-footer > small {
+    font-size: 9pt;
+}
+
 .pagebar {
     margin-bottom: 30px;
     text-align: center;
@@ -454,6 +460,9 @@ a:hover {
         font-size: 14px;
     }
     #cancel-reply {
+        font-size: 14px;
+    }
+    .post .post-footer > small {
         font-size: 14px;
     }
 }
