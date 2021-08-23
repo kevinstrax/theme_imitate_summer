@@ -379,7 +379,7 @@ a:hover {
 }
 
 .msg .msgarticle {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px dashed #ddd;
     background: url(../images/comment.gif) no-repeat 5px 0;
     padding: 15px 18px 10px 40px;
     min-height: 80px;
@@ -387,6 +387,15 @@ a:hover {
     line-height: 1.5em;
 }
 
+#cancel-reply {
+    margin-left: 5px;
+    color: #666;
+}
+#cancel-reply:hover {
+    margin-left: 5px;
+    text-decoration: underline;
+    color: orange;
+}
 
 #divCommentPost #txaArticle {
     outline: none;
