@@ -390,6 +390,7 @@ a:hover {
 #cancel-reply {
     margin-left: 5px;
     color: #666;
+    font-size: 9pt;
 }
 #cancel-reply:hover {
     margin-left: 5px;
@@ -449,6 +450,9 @@ a:hover {
         font-size: 14px;
     }
     .msg .msgname > small {
+        font-size: 14px;
+    }
+    #cancel-reply {
         font-size: 14px;
     }
 }
