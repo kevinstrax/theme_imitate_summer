@@ -397,8 +397,12 @@ a:hover {
 #cancel-reply {
     margin-left: 5px;
     color: #666;
+}
+
+#cancel-reply > small {
     font-size: 9pt;
 }
+
 #cancel-reply:hover {
     margin-left: 5px;
     text-decoration: underline;
@@ -459,7 +463,7 @@ a:hover {
     .msg .msgname > small {
         font-size: 14px;
     }
-    #cancel-reply {
+    #cancel-reply > small {
         font-size: 14px;
     }
     .post .post-footer > small {
