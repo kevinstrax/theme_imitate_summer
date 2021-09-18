@@ -339,6 +339,9 @@ a:hover {
 .post.single .post-tags a:first-child {
     margin-left: 5px;   
 }
+.post .post-footer .post-date {
+        display: block;
+    }
 
 #divCommentPost .posttop {
     margin-bottom: 10px;
@@ -468,9 +471,6 @@ a:hover {
     }
     .post .post-footer > small {
         font-size: 14px;
-    }
-    .post .post-footer .post-date {
-        display: block;
     }
 }
     
