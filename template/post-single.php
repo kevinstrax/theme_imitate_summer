@@ -6,8 +6,8 @@
                 {if count($article.Tags)>0}{$lang['msg']['tags']}:{foreach $article.Tags as $i => $tag}&nbsp;<a href='{$tag.Url}' title='{$tag.Name}'>{$tag.Name}</a>&nbsp;{/foreach}{/if}
 	</h5>
 	<h6 class="post-footer">
-		<span class="post-date">{$article.Time()}</span>
 		{$lang['msg']['author']}:{$article.Author.StaticName} <small>|</small> {$lang['msg']['category']}:{$article.Category.Name} <small>|</small> 阅读:{$article.ViewNums} <small>|</small> {$lang['msg']['comment']}:{$article.CommNums}
+		<span class="post-date">{$article.Time()}</span>
 	</h6>
 </div>
 

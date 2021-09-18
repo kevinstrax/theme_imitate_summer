@@ -469,5 +469,8 @@ a:hover {
     .post .post-footer > small {
         font-size: 14px;
     }
+    .post .post-footer .post-date {
+        display: block;
+    }
 }
     
