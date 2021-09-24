@@ -454,8 +454,8 @@ a:hover {
     body {
         font-size: 15px;
     }
-    .post.single .post-title {
-        font-size: 160%;
+    .post .post-title {
+        font-size: 145%;
     }
     .post.single .post-body {
         font-size: 18px;
