@@ -119,11 +119,13 @@ img#BlogSubTitle {
     position: relative;
 }
 .post .post-body .post-body-intro {
-    max-height: 130px;
     overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
 }
 
-.post .post-body .post-body-intromask {
+/*.post .post-body .post-body-intromask {
     position: absolute;
     height: 90px;
     width: 100%;
@@ -131,7 +133,7 @@ img#BlogSubTitle {
     bottom: 0;
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(250,247,239,0)),to(#faf7ef));
     background-image: linear-gradient(-180deg,rgba(250,247,239,0) 0%, #faf7ef 100%);
-}
+}*/
 
 .post .more-link {
     vertical-align: bottom;
