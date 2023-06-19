@@ -3,7 +3,6 @@
 	<h2 class="post-title"><a href="{$article.Url}">{$article.Title}</a></h2>
 	<div class="post-body">
 		<p class="post-body-intro">{$article.Intro}</p>
-		<div class="post-body-intromask"></div>
 	</div>
 	<a class="more-link float-end" href="{$article.Url}" alt="{$article.Title}">阅读全文>></a>
 	<h6 class="post-footer">
