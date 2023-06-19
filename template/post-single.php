@@ -1,5 +1,5 @@
 {* Template Name:文章页文章内容 *}
-<div class="post single">
+<article class="post single">
 	<h2 class="post-title">{$article.Title}</h2>
 	<div class="post-body">{$article.Content}</div>
 	<h5 class="post-tags">
@@ -9,7 +9,7 @@
 		{$lang['msg']['author']}:{$article.Author.StaticName} <small>|</small> {$lang['msg']['category']}:{$article.Category.Name} <small>|</small> 阅读:{$article.ViewNums} <small>|</small> {$lang['msg']['comment']}:{$article.CommNums}
 		<span class="post-date">{$article.Time()}</span>
 	</h6>
-</div>
+</article>
 
 {if !$article.IsLock}
 {template:comments}

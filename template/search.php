@@ -11,14 +11,16 @@
     <div id="divPage">
       <div id="divMiddle">
         <div class="header-wrap">
-          <div id="divTop" class="row header">
-            <h1 id="BlogTitle" class="col-sm header-logo"><a href="{$host}">{$name}</a></h1>
-          </div>
-          <div id="divNavBar" class="row">
+          <header id="divTop" class="row header">
+            <h1 id="BlogTitle" class="col-sm header-logo">
+ 		<a href="{$host}">{$name}<img id="BlogSubTitle" alt="{$subname}" src="https://image.aquac.cc/website/aquac/2023/06/202306125294_7344.png"/></a>
+	        </h1>
+          </header>
+          <nav id="divNavBar" class="row">
             <ul class="col-md nav">
               {module:navbar}
             </ul>
-          </div>
+          </nav>
         </div>
         <div class="row main-content">
           <div id="divMain" class="col-lg-9 order-lg-2">
@@ -32,9 +34,9 @@
             <div class="pagebar">{template:pagebar}</div>
             {/if}
           </div>
-          <div id="divSidebar" class="col-lg-3 order-lg-1">
+          <aside id="divSidebar" class="col-lg-3 order-lg-1">
             {template:sidebar}
-          </div>
+          </aside>
         </div>
 
         {template:footer}

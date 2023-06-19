@@ -2,7 +2,7 @@
 <theme version="php">
 <id>theme_imitate_summer</id>
 <name>仿summer主题</name>
-<url>https://www.xiaokuango.com</url>
+<url>https://www.aquac.cc</url>
 <note>自己通过模仿博客园summer主题重制的一个zblog主题</note>
 <description></description>
 <path></path>
@@ -11,7 +11,7 @@
 <author>
   <name>kevinstrax</name>
   <email>dtkviolin@qq.com</email>
-  <url>https://www.xiaokuango.com</url>
+  <url>https://www.aquac.cc</url>
 </author>
 <source>
   <name></name>
@@ -21,7 +21,7 @@
 <adapted>172955</adapted>
 <version>1.0</version>
 <pubdate>2021-08-21</pubdate>
-<modified>202109251154</modified>
+<modified>202306142355</modified>
 <price>0</price>
 <phpver>5.2</phpver>
 <advanced>
