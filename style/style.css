@@ -171,12 +171,29 @@ img#BlogSubTitle {
 
 .pagebar {
     margin-bottom: 30px;
-    text-align: center;
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
 }
-.pagebar a {
-    color: #333;
+.pagebar .now-page {
+    padding: 0 12px 0 12px;
+    font-weight: bold;
+}
+    .pagebar a {
+        color: #6466b3;
+        padding: 0 12px 0 12px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    .pagebar a:hover {
+        color: orange;
+        transition: .2s;
+    }
+.pagebar a:first-child {
 }
 
+.pagebar a:last-child {
+}
 
 /*正文富文本调整 start*/
 .post-body h1,h2,h3,h4,h5,h6 {
