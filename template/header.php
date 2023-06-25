@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <meta name="renderer" content="webkit">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{if $type == 'index' && $zbp->CheckPlugin('ytecn_tkd')}
+{if $type == 'index' && $page=='1' && $zbp->CheckPlugin('ytecn_tkd')}
 {template:ytecn_module/seo}
 {else}
 <title>{$title} - {$name}</title>

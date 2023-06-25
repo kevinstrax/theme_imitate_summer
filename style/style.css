@@ -19,7 +19,7 @@ figure.figure.float-md-end {
 }
 @media (min-width: 992px) {
     .container, .container-lg, .container-md, .container-sm {
-        max-width: 1080px;
+        max-width: 1140px;
     }
 }
 

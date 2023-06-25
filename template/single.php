@@ -23,14 +23,14 @@
           </nav>
         </div>
         <div class="row main-content">
-          <div id="divMain" class="col-lg-9 order-lg-2">
+          <div id="divMain" class="col-lg-9 order-lg-1">
             {if $article.Type==ZC_POST_TYPE_ARTICLE}
             {template:post-single}
             {else}
             {template:post-page}
             {/if}
           </div>
-          <aside id="divSidebar" class="col-lg-3 order-lg-1">
+          <aside id="divSidebar" class="col-lg-3 order-lg-2">
             {template:sidebar}
           </aside>
         </div>
