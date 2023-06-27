@@ -1,0 +1,12 @@
+.nav {
+    > li {
+        > a {
+            color: $normal-text-color;
+            display: block;
+            padding: .5rem 1rem;
+            text-decoration: none;
+            background-color: transparent;
+            transition: .2s;
+        }
+    }
+}

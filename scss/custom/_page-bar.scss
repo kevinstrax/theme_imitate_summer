@@ -1,0 +1,14 @@
+.pagebar {
+    margin-bottom: 30px;
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+    .now-page {
+        padding: 0 12px 0 12px;
+        font-weight: bold;
+    }
+    a {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
