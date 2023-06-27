@@ -23,7 +23,6 @@ figure.figure.float-md-end {
     }
 }
 
-
 .container {
     background: url('../images/header.jpg') no-repeat right top;
 }
@@ -94,25 +93,50 @@ img#BlogSubTitle {
 /*首页文章列表部分 start*/
 .post {
     margin-bottom: 25px;
+    background: none;
 }
-
+.top-content {
+    margin-bottom:30px;
+}
+.top-content .post .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.separator {
+    font-weight: lighter;
+    color: var(--bs-tertiary-color)!important;
+}
 .post .post-title {
-    font-size: 130%;
-    font-weight: bold;
+    font-size: 150%;
+    /*font-weight: bold;*/
     line-height: 1.5em;
     width: 100%;
     clear: both;
     margin: 0;
 }
 
-.post .post-title > a {
+.post .post-title > a, .purple-a-text {
     color: #6466b3;
     transition: .2s;
 }
 
-.post .post-title > a:hover {
+.post .post-title > a:hover, .purple-a-text:hover {
     color: orange;
     text-decoration: none;
+}
+.spanborder {
+    border-bottom: 1px solid rgb(232, 243, 236);
+    margin-bottom: 2rem;
+}
+
+.spanborder span {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.44);
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: -1px;
 }
 
 .post .post-body {
@@ -125,7 +149,7 @@ img#BlogSubTitle {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
 
@@ -249,10 +273,6 @@ img#BlogSubTitle {
 /*sideBar start*/
 
 #divSidebar .function .function_t {
-    font-weight: bold;
-    line-height: 1.5em;
-    margin: 15px 0 5px 0;
-    text-align: center;
     color: #6466b3;
 }
 
