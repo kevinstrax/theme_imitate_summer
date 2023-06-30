@@ -10,8 +10,10 @@
 {template:ytecn_module/seo}
 {else}
 <title>{$title} - {$name}</title>
-<meta name="description" content="{$article.Intro}" />
-<meta name="keywords" content="{if count($article.Tags)>0}{foreach $article.Tags as $i => $tag}{$tag.Name},{/foreach}{/if}" />
+    {if isset($article)}
+    <meta name="description" content="{$article.Intro}" />
+    <meta name="keywords" content="{if count($article.Tags)>0}{foreach $article.Tags as $i => $tag}{$tag.Name},{/foreach}{/if}" />
+    {/if}
 {/if}
 <!--<link rel="stylesheet" href="{$host}zb_users/theme/{$theme}/css/bootstrap.min.css">-->
 <link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/5.3.0/css/bootstrap.min.css">
