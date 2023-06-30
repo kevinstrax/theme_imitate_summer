@@ -1,28 +1,146 @@
 .header-wrap {
-    height: 176px;
-}
+    // margin-top: 30px; // 空出顶部的黑色栏，不能删除
+    // background-image: url(../images/mainvisual-2.png);
+    background-image: url(https://hidamarirhodonite.kirara.ca/spread/301215.png);
+    // background-image: url(https://hidamarirhodonite.kirara.ca/spread/300491.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    // transform: rotate3d();
+    // filter: blur(1px);
+    -webkit-animation: 20s backgroundMoving linear infinite normal;
+    animation: 20s backgroundMoving linear infinite normal;
 
-.header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    height: 106px;
-    .header-logo {
-        font-size: 200%;
-        font-weight: bold;
-        height: 80px;
-        margin-top: 10px;
-        line-height: 1.5em;
-    }
-    > a {
-        // -webkit-text-stroke: .5px white;
-        vertical-align: text-top;
-        transition: .2s;
-        #BlogSubTitle {
-            font-size: 15px;
-            color: $title-color;
-            margin-left: 13px;
-            margin-bottom: -0.4em;
+    .header-wrap-box {
+        height: 520px;
+        justify-content: space-around;
+        align-content: center;
+        background-color: rgba($color: black, $alpha: .233);
+
+        // background-image: url(../images/dot.gif);
+        // filter: drop-shadow(0px 0px 12px var(--bs-primary));
+        .header {
+            // padding-top: 30px;
+            // padding-bottom: 30px;
+            // height: 106px;
+
+            .header-logo {
+                font-size: 8em;
+                // font-weight: bold;
+                // height: 80px;
+                // margin-top: 60px;
+                line-height: 1.5em;
+                text-shadow: 5px 5px 12px var(--bs-primary);
+                transition: .7s;
+
+                -webkit-animation: 5s siteTitleColorful linear infinite normal;
+                animation: 5s siteTitleColorful linear infinite normal;
+
+                >a {
+                    // -webkit-text-stroke: .5px white;
+                    vertical-align: text-top;
+                    transition: .7s;
+                    color: var(--bs-light);
+                    display: inline-block;
+
+                    // -webkit-text-stroke:2px lighten($color: var(--bs-orange), $amount: 5);
+                    #BlogSubTitle {
+                        // font-size: 15px;
+
+                        // margin-left: 13px;
+                        // margin-bottom: -0.4em;
+                        width: 165px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        display: block;
+                        margin: 0 auto;
+                        opacity: .5;
+                        transition: opacity .8s;
+                        // filter: opacity(0.5);
+                        // filter: drop-shadow(0px 0px 12px var(--bs-light));
+                    }
+
+                    // &:hover #BlogTitle {
+                    //     transform: translateY(-10px);
+                    //     text-shadow: 6px 6px 23px var(--bs-pink);
+                    //     opacity: .5;
+                    //     #BlogSubTitle {
+                    //         opacity: 0;
+                    //     } 
+                    // }
+
+                }
+
+                // &:hover {
+                //     transform: translateY(-10px);
+                //     text-shadow: 6px 6px 23px var(--bs-pink);
+                //     opacity: .5;
+                //     #BlogSubTitle {
+                //         opacity: 0;
+                //     }
+                // }
+            }
         }
     }
-    
+
+
+
+    @keyframes siteTitleColorful {
+        0% {
+            text-shadow: 5px 5px 12px var(--bs-primary);
+        }
+
+        50% {
+            text-shadow: 6px 6px 23px var(--bs-pink);
+        }
+
+        100% {
+            text-shadow: 5px 5px 12px var(--bs-primary);
+        }
+    }
+
+    @keyframes backgroundMoving {
+        0% {
+            background-position: center 110%;
+        }
+
+        25% {
+            background-position: center 115%;
+        }
+
+        50% {
+            background-position: center 110%;
+        }
+
+        75% {
+            background-position: center 105%;
+        }
+
+        100% {
+            background-position: center 110%;
+        }
+    }
+
+    // position: relative;
+    // &::after {
+    //     content: " ";
+    //     display: block;
+    //     height: 400px;
+    //     width: 100%;
+    //     position: absolute;
+    //     top: 0;
+    //     left: 0;
+    //     background-color: rgba($color: black, $alpha: .3);
+    //     z-index: -1;
+    // }
+}
+
+#BlogTitle > a:hover {
+    transform: translateY(-10px);
+    text-shadow: 6px 6px 23px var(--bs-pink);
+    opacity: .5;
+    #BlogSubTitle {
+        opacity: 0;
+    } 
 }

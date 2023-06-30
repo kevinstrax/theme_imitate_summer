@@ -1,8 +1,60 @@
+// $font-weight-lighter:         lighter !default;
+// $font-weight-light:           300 !default;
+// $font-weight-normal:          400 !default;
+// $font-weight-medium:          500 !default;
+// $font-weight-semibold:        600 !default;
+// $font-weight-bold:            700 !default;
+// $font-weight-bolder:          bolder !default;
 
+// @font-face {
+//     font-family: "Noto Sans SC";
+//     font-weight: $font-weight-lighter;
+//     // src: url(../fonts/NotoSansSC-Thin.otf);
+//     src: url(../fonts/SourceHanSansHWSC-Regular.otf);
+// }
+// @font-face {
+//     font-family: "Noto Sans SC";
+//     font-weight: $font-weight-light;
+//     // src: url(../fonts/NotoSansSC-Light.otf);
+//     src: url(../fonts/SourceHanSansHWSC-Regular.otf);
+// }
+// @font-face {
+//     font-family: "Noto Sans SC";
+//     font-weight: $font-weight-normal;
+//     // src: url(../fonts/NotoSansSC-Medium.otf);
+//     src: url(../fonts/SourceHanSansHWSC-Regular.otf);
+// }
+// // @font-face {
+// //     font-family: "Noto Sans SC";
+// //     font-weight: $font-weight-medium;
+// //     font-style: normal;
+// //     // src: url(../fonts/NotoSansSC-Regular.otf);
+// //     src: url(../fonts/SourceHanSansHWSC-Regular.otf);
+// // }
+// @font-face {
+//     font-family: "Noto Sans SC";
+//     font-weight: $font-weight-semibold;
+//     // src: url(../fonts/NotoSansSC-Regular.otf);
+//     src: url(../fonts/SourceHanSansHWSC-Bold.otf);
+// }
+// @font-face {
+//     font-family: "Noto Sans SC";
+//     font-weight: $font-weight-bold;
+//     // src: url(../fonts/NotoSansSC-Bold.otf);
+//     src: url(../fonts/SourceHanSansHWSC-Bold.otf);
+// }
+// @font-face {
+//     font-family: "Noto Sans SC";
+//     font-weight: $font-weight-bolder;
+//     // src: url(../fonts/NotoSansSC-Black.otf);
+//     src: url(../fonts/SourceHanSansHWSC-Bold.otf);
+// }
 body {
-    background:transparent url('../images/bg.jpg') repeat-x;
+    // background:transparent url('../images/bg.jpg') repeat-x;
     background-color: $background-color;
-    font-size: $font-size;
+    // font-size: $font-size;
+    // font-family: "Noto Sans SC","RedHatDisplay",Helvetica,Arial,sans-serif;
+    // font-weight: $font-weight-normal;
 }
 
 a {
@@ -12,4 +64,8 @@ a {
         text-decoration: none;
         color: $title-hover-color;   
     }
-}   
+}
+
+.container-fluid {
+    // background: url('../images/header.jpg') no-repeat right top;
+}

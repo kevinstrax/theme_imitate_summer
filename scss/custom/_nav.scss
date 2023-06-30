@@ -6,7 +6,20 @@
             padding: .5rem 1rem;
             text-decoration: none;
             background-color: transparent;
-            transition: .2s;
+            transition: .4s;
+            color: var(--bs-light);
+            border-bottom: 2px solid var(--bs-primary);
+            text-shadow: 5px  5px 12px var(--bs-primary);
+            font-size: 16px;
+            &:hover {
+                // color: var(--bs-pink);
+                transform: translateY(-5px);
+                // line-height: 1.;
+                // border-bottom: 4px solid var(--bs-primary);
+                text-shadow: 5px  5px 12px var(--bs-pink);
+                border-color: var(--bs-pink);
+                color: var(--bs-white);
+            }
         }
     }
 }
