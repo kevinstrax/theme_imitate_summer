@@ -16,8 +16,7 @@
     {/if}
 {/if}
 <!--<link rel="stylesheet" href="{$host}zb_users/theme/{$theme}/css/bootstrap.min.css">-->
-<link rel="stylesheet" href="https://cdn.staticfile.org/bootstrap/5.3.0/css/bootstrap.min.css">
-<link rel="stylesheet" rev="stylesheet" href="{$host}zb_users/theme/{$theme}/style/{$style}.css?{$themeinfo['modified']}" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="{$host}zb_users/theme/{$theme}/css/{$style}.css?{$themeinfo['modified']}" type="text/css" media="all" />
 <link rel="apple-touch-icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="180x180">
 <link rel="icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="32x32" type="image/png">
 <link rel="icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="16x16" type="image/png">
