@@ -20,5 +20,5 @@
 	<p><textarea name="txaArticle" id="txaArticle" class="text" cols="50" rows="4" tabindex="5" ></textarea></p>
 	<p><input name="sumbit" type="submit" tabindex="6" value="提交" onclick="return zbp.comment.post()" class="button" /></p>
 	</form>
-	<p class="postbottom">{$lang['default']['reply_notice']}</p>
+	<p class="postbottom">{$lang['theme_imitate_summer']['reply_notice']}</p>
 </div>
