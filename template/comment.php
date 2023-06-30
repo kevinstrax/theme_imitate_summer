@@ -5,7 +5,7 @@
 		<span class="commentname">
 			<a href="{$comment.Author.HomePage}" rel="nofollow" target="_blank">{$comment.Author.StaticName}</a>
 		</span>
-		<small>&nbsp;{$lang['default']['comment_post_on']}&nbsp;{$comment.Time()}&nbsp;&nbsp;</small>
+		<small>&nbsp;{$lang['theme_imitate_summer']['comment_post_on']}&nbsp;{$comment.Time()}&nbsp;&nbsp;</small>
 		<span class="revertcomment">
 			<a href="#comment" onclick="zbp.comment.reply('{$comment.ID}')">回复</a>
 		</span>
