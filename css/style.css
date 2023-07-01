@@ -8749,10 +8749,19 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
   width: 100%;
   height: calc(100vh - 48px);
   z-index: -1;
+}
+@supports (-webkit-touch-callout: none) {
+  .header-wrap {
+    background-attachment: scroll;
+  }
+}
+@supports not (-webkit-touch-callout: none) {
+  .header-wrap {
+    background-attachment: fixed;
+  }
 }
 .header-wrap .header-wrap-box {
   height: calc(100vh - 48px);
