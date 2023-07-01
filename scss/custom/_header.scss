@@ -24,9 +24,40 @@
             // padding-top: 30px;
             // padding-bottom: 30px;
             // height: 106px;
+            $logo-font-size: 7em;
+            @media screen and (min-width: map-get($grid-breakpoints, 'xs')) {
+                .header-logo {
+                    font-size: $logo-font-size * .6;
+                }
+            }
+            @media screen and (min-width: map-get($grid-breakpoints, 'sm')) {
+                .header-logo {
+                    font-size: $logo-font-size * .67;
+                }
+            }
+            @media screen and (min-width: map-get($grid-breakpoints, 'md')) {
+                .header-logo {
+                    font-size: $logo-font-size * .7;
+                }
+            }
+            @media screen and (min-width: map-get($grid-breakpoints, 'lg')) {
+                .header-logo {
+                    font-size: $logo-font-size * .8;
+                }
+            }
+            @media screen and (min-width: map-get($grid-breakpoints, 'xl')) {
+                .header-logo {
+                    font-size: $logo-font-size * .9;
+                }
+            }
+            @media screen and (min-width: map-get($grid-breakpoints, 'xxl')) {
+                .header-logo {
+                    font-size: $logo-font-size;
+                }
+            }
 
             .header-logo {
-                font-size: 8em;
+                
                 // font-weight: bold;
                 // height: 80px;
                 // margin-top: 60px;

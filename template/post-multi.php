@@ -1,5 +1,5 @@
 {* Template Name:列表页普通文章 *}
-<section class="post multi">
+<section class="post mb-2 multi">
 	<h2 class="post-title"><a href="{$article.Url}">{$article.Title}</a></h2>
 	<div class="post-body">
 		<p class="post-body-intro">{$article.Intro}</p>

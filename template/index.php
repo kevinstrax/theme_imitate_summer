@@ -9,7 +9,7 @@
 <body class="multi {$type}">
     <nav class="navbar navbar-expand-lg brand-bar">
         <div class="container-fluid">
-          <a class="navbar-brand text-uppercase font-monospace" href="{$host}">Aquac.cc</a>
+          <a class="navbar-brand text-uppercase font-monospace" href="{$host}" alt="{$name}">Aquac.cc</a>
         </div>
       </nav>
       
@@ -17,7 +17,7 @@
         <div class="header-wrap-box row">
             <header id="divTop" class="header">
                 <h1 id="BlogTitle" class="col-sm header-logo text-center mb-5 fw-bold">
-                    <a href="${host}">{$name}<i id="BlogSubTitle" alt="{$subname}"
+                    <a href="{$host}">{$name}<i id="BlogSubTitle" alt="{$subname}"
                             style="background-image: url(https://image.aquac.cc/website/aquac/2023/06/202306125294_7344.png);"></i></a>
                 </h1>
             </header>

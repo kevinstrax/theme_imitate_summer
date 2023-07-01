@@ -2,15 +2,19 @@
     margin-bottom: 25px;
 
     .post-title {
-        font-size: 130%;
+        // font-size: 130%;
         font-weight: bold;
         line-height: 1.5em;
         width: 100%;
-        clear: both;
+        // clear: both;
         margin: 0;
 
         >a {
             transition: .2s;
+            color: var(--bs-gray-800);
+            &:hover {
+                color: $title-hover-color;
+            }
         }
     }
 
@@ -24,7 +28,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
-            -webkit-line-clamp: 4;
+            -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
         }
 
@@ -43,8 +47,8 @@
 
     .post-footer {
         width: 100%;
-        clear: both;
-        text-align: right;
+        // clear: both;
+        // text-align: right;
         padding: 5px 5px 0 0;
         color: $normal-text-color;
         font-size: 9pt;
@@ -56,24 +60,24 @@
         }
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-weight: bold;
-        margin: 10px 0;
-    }
+    // h1,
+    // h2,
+    // h3,
+    // h4,
+    // h5,
+    // h6 {
+    //     font-weight: bold;
+    //     margin: 10px 0;
+    // }
 
-    @for $i from 1 to 7 {
-        h#{$i} {
-            font-size: nth($hs, $i);
-            @if ($i <= 3) {
-                line-height: 1.5;
-            }
-        }
-    }
+    // @for $i from 1 to 7 {
+    //     h#{$i} {
+    //         font-size: nth($hs, $i);
+    //         @if ($i <= 3) {
+    //             line-height: 1.5;
+    //         }
+    //     }
+    // }
 
     blockquote {
         background: url(../images/comment.gif) no-repeat 25px 0;
