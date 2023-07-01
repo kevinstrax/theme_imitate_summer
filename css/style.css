@@ -8808,40 +8808,6 @@ a:hover {
     text-shadow: 5px 5px 12px var(--bs-primary);
   }
 }
-@keyframes backgroundMoving-short {
-  0% {
-    background-position: center 50%;
-  }
-  25% {
-    background-position: center 55%;
-  }
-  50% {
-    background-position: center 50%;
-  }
-  75% {
-    background-position: center 45%;
-  }
-  100% {
-    background-position: center 50%;
-  }
-}
-@keyframes backgroundMoving {
-  0% {
-    background-position: center 110%;
-  }
-  25% {
-    background-position: center 115%;
-  }
-  50% {
-    background-position: center 110%;
-  }
-  75% {
-    background-position: center 105%;
-  }
-  100% {
-    background-position: center 110%;
-  }
-}
 
 #BlogTitle > a:hover {
   transform: translateY(-10px);
