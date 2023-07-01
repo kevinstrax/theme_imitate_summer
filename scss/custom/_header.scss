@@ -7,17 +7,18 @@
     background-size: cover;
     background-position: center center;
     @supports (-webkit-touch-callout : none) {
+        background-attachment: scroll;
+        height: calc(90vh);
+    }
     
-            background-attachment: scroll
-        }
-    
-        @supports not (-webkit-touch-callout : none) {
-    
-            background-attachment: fixed;
-    
-        }
+    @supports not (-webkit-touch-callout : none) {
+
+        background-attachment: fixed;
+        height: calc(95vh);
+
+    }
     width: 100%;
-    height: calc(95vh);
+    
     z-index: -1;
     @supports (-webkit-overflow-scrolling: touch) { 
         
@@ -49,7 +50,7 @@
 
     .header-wrap-box {
         
-        height: calc(95vh);
+        height: 100%;
         // justify-content: space-around;
         align-content: center;
         background-color: rgba($color: black, $alpha: .233);
