@@ -5,16 +5,19 @@
     // background-image: url(https://hidamarirhodonite.kirara.ca/spread/300491.png);
     background-repeat: no-repeat;
     background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     // transform: rotate3d();
     // filter: blur(1px);
-    -webkit-animation: 20s backgroundMoving linear infinite normal;
-    animation: 20s backgroundMoving linear infinite normal;
+    // -webkit-animation: 20s backgroundMoving linear infinite normal;
+    // animation: 20s backgroundMoving linear infinite normal;
 
     @media screen and (max-height: 768px) {
-        -webkit-animation: 20s backgroundMoving-short linear infinite normal;
-        animation: 20s backgroundMoving-short linear infinite normal;
+        // -webkit-animation: 20s backgroundMoving-short linear infinite normal;
+        // animation: 20s backgroundMoving-short linear infinite normal;
 
     }
 
