@@ -8,8 +8,16 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
+
     background-position: center center;
+    -moz-background-position: center center;
+    -webkit-background-position: center center;
+    -o-background-position: center center;
+
     background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -o-background-attachment: fixed;
     // transform: rotate3d();
     // filter: blur(1px);
     // -webkit-animation: 20s backgroundMoving linear infinite normal;
@@ -22,7 +30,7 @@
     }
 
     .header-wrap-box {
-        height: calc(90vh);
+        height: calc(95vh);
         justify-content: space-around;
         align-content: center;
         background-color: rgba($color: black, $alpha: .233);

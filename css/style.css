@@ -8722,10 +8722,16 @@ a:hover {
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-position: center center;
+  -moz-background-position: center center;
+  -webkit-background-position: center center;
+  -o-background-position: center center;
   background-attachment: fixed;
+  -moz-background-attachment: fixed;
+  -webkit-background-attachment: fixed;
+  -o-background-attachment: fixed;
 }
 .header-wrap .header-wrap-box {
-  height: 90vh;
+  height: 95vh;
   justify-content: space-around;
   align-content: center;
   background-color: rgba(0, 0, 0, 0.233);
