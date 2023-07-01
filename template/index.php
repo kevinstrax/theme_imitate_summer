@@ -31,9 +31,9 @@
             </header>
         </div>
     </div>
-
-  <div class="container pt-5" id="divAll">
-    <div id="divPage">
+  <div id="divPage">
+    <div class="container pt-5" id="divAll">
+    
       <div id="divMiddle">
         <div class="row main-content">
           <div id="divMain" class="col-lg-9 order-lg-2">
@@ -55,9 +55,9 @@
         
         {template:footer}
       </div>
-      <div class="clear"></div>
+      <!-- <div class="clear"></div> -->
     </div>
-    <div class="clear"></div>
+    <!-- <div class="clear"></div> -->
   </div>
 </body>
 
