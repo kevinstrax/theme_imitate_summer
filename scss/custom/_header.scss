@@ -4,11 +4,11 @@
     background-image: url(https://hidamarirhodonite.kirara.ca/spread/301215.png);
     // background-image: url(https://hidamarirhodonite.kirara.ca/spread/300491.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: scroll;
     background-position: center center;
     background-attachment: fixed;
     @supports (-webkit-overflow-scrolling: touch) { 
-        background-size: scroll;
+        
     }
 
     // &:before {

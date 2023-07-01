@@ -8725,14 +8725,9 @@ a:hover {
 .header-wrap {
   background-image: url(https://hidamarirhodonite.kirara.ca/spread/301215.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: scroll;
   background-position: center center;
   background-attachment: fixed;
-}
-@supports (-webkit-overflow-scrolling: touch) {
-  .header-wrap {
-    background-size: scroll;
-  }
 }
 .header-wrap .header-wrap-box {
   height: 95vh;
