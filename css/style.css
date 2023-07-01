@@ -8755,7 +8755,7 @@ a:hover {
 @supports (-webkit-touch-callout: none) {
   .header-wrap {
     background-attachment: scroll;
-    height: 90vh;
+    height: 92vh;
   }
 }
 @supports not (-webkit-touch-callout: none) {
