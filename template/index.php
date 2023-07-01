@@ -9,7 +9,7 @@
 <body class="multi {$type}">
     <nav class="navbar navbar-expand-lg brand-bar">
         <div class="container-fluid">
-          <a class="navbar-brand text-uppercase font-monospace" href="{$host}" alt="{$name}">Aquac.cc</a>
+          <a class="navbar-brand text-uppercase font-monospace" href="{$host}" alt="{$name}">Aqua</a>
           <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#divNavBar" aria-controls="divNavBar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,7 +24,7 @@
       <div class="header-wrap container-fluid mb-5">
         <div class="header-wrap-box row">
             <header id="divTop" class="header">
-                <h1 id="BlogTitle" class="col-sm header-logo text-center mb-5 fw-bold">
+                <h1 id="BlogTitle" class="col-sm header-logo text-center fw-bold">
                     <a href="{$host}">{$name}<i id="BlogSubTitle" alt="{$subname}"
                             style="background-image: url(https://image.aquac.cc/website/aquac/2023/06/202306125294_7344.png);"></i></a>
                 </h1>
