@@ -59,7 +59,7 @@
             $logo-font-size: 8.5em;
             @media screen and (min-width: map-get($grid-breakpoints, 'xs')) {
                 .header-logo {
-                    font-size: $logo-font-size * .6;
+                    font-size: $logo-font-size * .3;
                 }
             }
             @media screen and (min-width: map-get($grid-breakpoints, 'sm')) {
