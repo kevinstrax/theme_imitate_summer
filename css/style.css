@@ -8730,7 +8730,7 @@ a:hover {
   }
 }
 .header-wrap .header-wrap-box {
-  height: 520px;
+  height: 100vh;
   justify-content: space-around;
   align-content: center;
   background-color: rgba(0, 0, 0, 0.233);
