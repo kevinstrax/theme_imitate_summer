@@ -1,8 +1,8 @@
 .header-wrap {
     // margin-top: 30px; // 空出顶部的黑色栏，不能删除
-    background-image: url(../images/mainvisual-2.png);
+    // background-image: url(../images/mainvisual-2.png);
     // background-image: url(https://www.aquac.cc/yaoling-a-yaoling/images/index/background-1.jpg);
-    // background-image: url(https://hidamarirhodonite.kirara.ca/spread/300491.png);
+    background-image: url(https://hidamarirhodonite.kirara.ca/spread/300491.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -17,7 +17,7 @@
     
         }
     width: 100%;
-    height: calc(100vh - 48px);
+    height: calc(95vh);
     z-index: -1;
     @supports (-webkit-overflow-scrolling: touch) { 
         
@@ -49,7 +49,7 @@
 
     .header-wrap-box {
         
-        height: calc(100vh - 48px);
+        height: calc(95vh);
         // justify-content: space-around;
         align-content: center;
         background-color: rgba($color: black, $alpha: .233);
