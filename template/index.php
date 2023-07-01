@@ -21,7 +21,7 @@
         </div>
       </nav>
       
-      <div class="header-wrap container-fluid mb-5">
+      <div class="header-wrap container-fluid">
         <div class="header-wrap-box row">
             <header id="divTop" class="header">
                 <h1 id="BlogTitle" class="col-sm header-logo text-center fw-bold">
@@ -32,7 +32,7 @@
         </div>
     </div>
 
-  <div class="container" id="divAll">
+  <div class="container pt-5" id="divAll">
     <div id="divPage">
       <div id="divMiddle">
         <div class="row main-content">

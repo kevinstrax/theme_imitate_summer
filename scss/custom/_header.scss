@@ -1,24 +1,38 @@
 .header-wrap {
     // margin-top: 30px; // 空出顶部的黑色栏，不能删除
-    // background-image: url(../images/mainvisual-2.png);
-    background-image: url(https://hidamarirhodonite.kirara.ca/spread/301215.png);
-    // background-image: url(https://hidamarirhodonite.kirara.ca/spread/300491.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
+    // // background-image: url(../images/mainvisual-2.png);
+    // background-image: url(https://hidamarirhodonite.kirara.ca/spread/301215.png);
+    // // background-image: url(https://hidamarirhodonite.kirara.ca/spread/300491.png);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // -moz-background-size: cover;
+    // -webkit-background-size: cover;
+    // -o-background-size: cover;
 
-    background-position: center center;
-    -moz-background-position: center center;
-    -webkit-background-position: center center;
-    -o-background-position: center center;
+    // background-position: center center;
+    // -moz-background-position: center center;
+    // -webkit-background-position: center center;
+    // -o-background-position: center center;
 
-    background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -webkit-background-attachment: fixed;
-    -o-background-attachment: fixed;
-    z-index: -1;
+    // background-attachment: fixed;
+    // -moz-background-attachment: fixed;
+    // -webkit-background-attachment: fixed;
+    // -o-background-attachment: fixed;
+    // z-index: -1;
+
+    &:before {
+        content: ' ';
+        position: fixed;
+        z-index: -1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url(https://hidamarirhodonite.kirara.ca/spread/301215.png) center 0 no-repeat;
+        background-size: cover;
+        height: calc(95vh);
+    }
+
     // transform: rotate3d();
     // filter: blur(1px);
     // -webkit-animation: 20s backgroundMoving linear infinite normal;

@@ -8674,6 +8674,10 @@ a:hover {
   color: var(--bs-pink);
 }
 
+#divAll {
+  background-color: #faf7ef;
+}
+
 .brand-bar {
   position: absolute;
   width: 100%;
@@ -8714,22 +8718,17 @@ a:hover {
   color: var(--bs-white);
 }
 
-.header-wrap {
-  background-image: url(https://hidamarirhodonite.kirara.ca/spread/301215.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-position: center center;
-  -moz-background-position: center center;
-  -webkit-background-position: center center;
-  -o-background-position: center center;
-  background-attachment: fixed;
-  -moz-background-attachment: fixed;
-  -webkit-background-attachment: fixed;
-  -o-background-attachment: fixed;
+.header-wrap:before {
+  content: " ";
+  position: fixed;
   z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(https://hidamarirhodonite.kirara.ca/spread/301215.png) center 0 no-repeat;
+  background-size: cover;
+  height: 95vh;
 }
 .header-wrap .header-wrap-box {
   height: 95vh;
