@@ -10,6 +10,14 @@
     <nav class="navbar navbar-expand-lg brand-bar">
         <div class="container-fluid">
           <a class="navbar-brand text-uppercase font-monospace" href="{$host}" alt="{$name}">Aquac.cc</a>
+          <button class="navbar-toggler rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#divNavBar" aria-controls="divNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="divNavBar">
+            <ul class="col-md nav navbar-nav justify-content-end fw-bold text-center">
+              {module:navbar}
+            </ul>
+          </div>
         </div>
       </nav>
       
@@ -21,11 +29,6 @@
                             style="background-image: url(https://image.aquac.cc/website/aquac/2023/06/202306125294_7344.png);"></i></a>
                 </h1>
             </header>
-            <nav id="divNavBar" class="row">
-                <ul class="col-md nav justify-content-center fw-bold">
-                  {module:navbar}
-                </ul>
-            </nav>
         </div>
     </div>
 

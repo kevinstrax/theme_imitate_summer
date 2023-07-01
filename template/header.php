@@ -22,6 +22,7 @@
 <link rel="icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="16x16" type="image/png">
 <script src="{$host}zb_system/script/jquery-2.2.4.min.js?v={$version}"></script>
 <script src="{$host}zb_system/script/zblogphp.js?v={$version}"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{$host}zb_system/script/c_html_js_add.php?{if isset($html_js_hash)}hash={$html_js_hash}&{/if}v={$version}"></script>
 <script src="{$host}zb_users/theme/{$theme}/script/custom.js"></script>
 {$header}

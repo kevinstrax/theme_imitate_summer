@@ -8680,11 +8680,40 @@ a:hover {
   top: 0;
   left: 0;
   transition: 0.7s;
-  opacity: 0.3;
-}
-.brand-bar:hover {
   opacity: 0.8;
 }
+.brand-bar:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 992px) {
+  .brand-bar:hover {
+    background-color: var(--bs-danger-border-subtle);
+  }
+}
+.brand-bar .nav > li > a {
+  color: #666;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: transparent;
+  transition: 0.4s;
+  color: var(--bs-light);
+  border-bottom: 2px solid var(--bs-primary);
+  text-shadow: 5px 5px 12px var(--bs-primary);
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  .brand-bar .nav > li > a {
+    border-bottom: none;
+  }
+}
+.brand-bar .nav > li > a:hover {
+  transform: translateY(-5px);
+  text-shadow: 5px 5px 12px var(--bs-pink);
+  border-color: var(--bs-pink);
+  color: var(--bs-white);
+}
+
 .header-wrap {
   background-image: url(https://hidamarirhodonite.kirara.ca/spread/301215.png);
   background-repeat: no-repeat;
@@ -8693,6 +8722,12 @@ a:hover {
   background-attachment: fixed;
   -webkit-animation: 20s backgroundMoving linear infinite normal;
   animation: 20s backgroundMoving linear infinite normal;
+}
+@media screen and (max-height: 768px) {
+  .header-wrap {
+    -webkit-animation: 20s backgroundMoving-short linear infinite normal;
+    animation: 20s backgroundMoving-short linear infinite normal;
+  }
 }
 .header-wrap .header-wrap-box {
   height: 520px;
@@ -8761,6 +8796,23 @@ a:hover {
   }
   100% {
     text-shadow: 5px 5px 12px var(--bs-primary);
+  }
+}
+@keyframes backgroundMoving-short {
+  0% {
+    background-position: center 50%;
+  }
+  25% {
+    background-position: center 55%;
+  }
+  50% {
+    background-position: center 50%;
+  }
+  75% {
+    background-position: center 45%;
+  }
+  100% {
+    background-position: center 50%;
   }
 }
 @keyframes backgroundMoving {
