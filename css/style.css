@@ -8710,6 +8710,7 @@ a:hover {
   top: 0;
   left: 0;
   transition: 0.7s;
+  z-index: 2;
   opacity: 0.8;
 }
 @media screen and (max-width: 992px) {
@@ -8825,6 +8826,7 @@ a:hover {
   transition: opacity 0.8s;
 }
 .header-wrap .header-wrap-box .header-wave {
+  z-index: 1;
   height: 100px;
   width: 100%;
   display: block;
