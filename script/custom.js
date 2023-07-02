@@ -22,8 +22,15 @@ $(document).ready(function () {
     $(".header-wrap").css("background-image", "url(" + imageUrls.sort(function () {
         return .5 - Math.random();
     })[0] + ")");
-
 });
 
 
+// header重新设置高度
+const convertStyle = () => {
+    $(".header-wrap").css("height", `${window.innerHeight}px`)
+    // document.body.style.setProperty('height', `${window.innerHeight}px`);
+}
+
+window.addEventListener("resize", convertStyle);
+window.addEventListener("DOMContentLoaded", convertStyle);
 
