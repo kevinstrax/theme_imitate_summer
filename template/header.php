@@ -24,7 +24,7 @@
 <script src="{$host}zb_system/script/zblogphp.js?v={$version}"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{$host}zb_system/script/c_html_js_add.php?{if isset($html_js_hash)}hash={$html_js_hash}&{/if}v={$version}"></script>
-<script src="{$host}zb_users/theme/{$theme}/script/custom.js"></script>
+<script src="{$host}zb_users/theme/{$theme}/script/custom.js?{$themeinfo['modified']}"></script>
 {$header}
 {if $type=='index'&&$page=='1'}
 <link rel="alternate" type="application/rss+xml" href="{$feedurl}" title="{$name}" />

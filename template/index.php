@@ -29,6 +29,8 @@
                             style="background-image: url(https://image.aquac.cc/website/aquac/2023/06/202306125294_7344.png);"></i></a>
                 </h1>
             </header>
+            <span class="header-wave wave1"></span>
+            <span class="header-wave wave2"></span>
         </div>
     </div>
   <div id="divPage">

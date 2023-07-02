@@ -8712,13 +8712,14 @@ a:hover {
   transition: 0.7s;
   opacity: 0.8;
 }
+@media screen and (max-width: 992px) {
+  .brand-bar:has(.navbar-collapse.collapsing, .navbar-collapse.show) {
+    background-color: var(--bs-danger-border-subtle);
+    transition: background-color 0s;
+  }
+}
 .brand-bar:hover {
   opacity: 1;
-}
-@media screen and (max-width: 992px) {
-  .brand-bar:hover {
-    background-color: var(--bs-danger-border-subtle);
-  }
 }
 .brand-bar .nav > li > a {
   color: #666;
@@ -8755,23 +8756,24 @@ a:hover {
 @supports (-webkit-touch-callout: none) {
   .header-wrap {
     background-attachment: scroll;
-    height: 92vh;
+    height: 100vh;
   }
 }
 @supports not (-webkit-touch-callout: none) {
   .header-wrap {
     background-attachment: fixed;
-    height: 95vh;
+    height: 100vh;
   }
 }
 .header-wrap .header-wrap-box {
+  position: relative;
   height: 100%;
   align-content: center;
   background-color: rgba(0, 0, 0, 0.233);
 }
 @media screen and (min-width: 0) {
   .header-wrap .header-wrap-box .header .header-logo {
-    font-size: 4.25em;
+    font-size: 4.675em;
   }
 }
 @media screen and (min-width: 576px) {
@@ -8803,6 +8805,7 @@ a:hover {
   line-height: 1.5em;
   text-shadow: 5px 5px 12px var(--bs-primary);
   transition: 0.7s;
+  opacity: 0.94;
   -webkit-animation: 5s siteTitleColorful linear infinite normal;
   animation: 5s siteTitleColorful linear infinite normal;
 }
@@ -8821,6 +8824,38 @@ a:hover {
   opacity: 0.5;
   transition: opacity 0.8s;
 }
+.header-wrap .header-wrap-box .header-wave {
+  height: 100px;
+  width: 100%;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../../images/wave2.png);
+  background-repeat: repeat-x;
+}
+.header-wrap .header-wrap-box .header-wave.wave1 {
+  height: 85px;
+  background-image: url(../../images/wave1.png);
+  -webkit-animation: 60s waveMove linear infinite normal;
+  animation: 60s waveMove linear infinite normal;
+}
+.header-wrap .header-wrap-box .header-wave.wave2 {
+  background-image: url(../../images/wave2.png);
+  -webkit-animation: 120s waveMove linear infinite normal;
+  animation: 120s waveMove linear infinite normal;
+}
+@keyframes waveMove {
+  0% {
+    background-position-x: 0;
+  }
+  50% {
+    background-position-x: 100%;
+  }
+  100% {
+    background-position-x: 0;
+  }
+}
 @keyframes siteTitleColorful {
   0% {
     text-shadow: 5px 5px 12px var(--bs-primary);
@@ -8836,29 +8871,10 @@ a:hover {
 #BlogTitle > a:hover {
   transform: translateY(-10px);
   text-shadow: 6px 6px 23px var(--bs-pink);
-  opacity: 0.5;
+  opacity: 0.45;
 }
 #BlogTitle > a:hover #BlogSubTitle {
   opacity: 0;
-}
-
-.nav > li > a {
-  color: #666;
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  background-color: transparent;
-  transition: 0.4s;
-  color: var(--bs-light);
-  border-bottom: 2px solid var(--bs-primary);
-  text-shadow: 5px 5px 12px var(--bs-primary);
-  font-size: 16px;
-}
-.nav > li > a:hover {
-  transform: translateY(-5px);
-  text-shadow: 5px 5px 12px var(--bs-pink);
-  border-color: var(--bs-pink);
-  color: var(--bs-white);
 }
 
 .post {
