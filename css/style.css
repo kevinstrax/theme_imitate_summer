@@ -8831,17 +8831,17 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(../../images/wave2.png);
+  background-image: url(../images/wave2.png);
   background-repeat: repeat-x;
 }
 .header-wrap .header-wrap-box .header-wave.wave1 {
   height: 85px;
-  background-image: url(../../images/wave1.png);
+  background-image: url(../images/wave1.png);
   -webkit-animation: 60s waveMove linear infinite normal;
   animation: 60s waveMove linear infinite normal;
 }
 .header-wrap .header-wrap-box .header-wave.wave2 {
-  background-image: url(../../images/wave2.png);
+  background-image: url(../images/wave2.png);
   -webkit-animation: 120s waveMove linear infinite normal;
   animation: 120s waveMove linear infinite normal;
 }
