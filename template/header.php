@@ -20,6 +20,7 @@
 <link rel="apple-touch-icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="180x180">
 <link rel="icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="32x32" type="image/png">
 <link rel="icon" href="{$host}zb_users/theme/{$theme}/images/favicons/2wo.png" sizes="16x16" type="image/png">
+<link rel="stylesheet" href="https://file.crazywong.com/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
 <script src="{$host}zb_system/script/jquery-2.2.4.min.js?v={$version}"></script>
 <script src="{$host}zb_system/script/zblogphp.js?v={$version}"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
