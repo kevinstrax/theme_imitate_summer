@@ -39,6 +39,49 @@
 
         // background-image: url(../images/dot.gif);
         // filter: drop-shadow(0px 0px 12px var(--bs-primary));
+
+        #scroll-down {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            // cursor: pointer;
+            z-index: 10;
+            .scroll-down-effects {
+                position: relative;
+                width: 100%;
+                color: var(--light-grey);
+                font-size: 30px;
+                text-align: center;
+                text-shadow: 2px 2px 4px rgba(0,0,0,.15);
+                line-height: 1.5;
+                -webkit-animation: scroll-down-effect 1.5s infinite;
+                -moz-animation: scroll-down-effect 1.5s infinite;
+                -o-animation: scroll-down-effect 1.5s infinite;
+                -ms-animation: scroll-down-effect 1.5s infinite;
+                animation: scroll-down-effect 1.5s infinite;
+            }
+        }
+       
+
+        @keyframes scroll-down-effect {
+            0% {
+                top: 0;
+                opacity: .4
+            }
+        
+            50% {
+                top: -16px;
+                opacity: 1;
+                -ms-filter: none;
+                filter: none
+            }
+        
+            100% {
+                top: 0;
+                opacity: .4
+            }
+        }
+
         .header {
             // padding-top: 30px;
             // padding-bottom: 30px;
@@ -129,7 +172,7 @@
             // border: 1px solid red;
             display: block;
             position: absolute;
-            bottom: 0;
+            bottom: -1px;
             left: 0;
             background-image: url(../images/wave2.png);
             background-repeat: repeat-x;
