@@ -2,7 +2,7 @@
 <section class="post multi border-light-subtle rounded">
 	<div class="d-flex flex-column flex-md-row p-md-3">
 		<a href="{$article.Url}" class="post-cover flex-grow-1 rounded border border-light me-md-3 mb-1 mb-md-0">
-			<img src="{$host}images/mainvisual-2.png" class="img-fluid" alt="{$article.Title}">
+			<img src="{$host}zb_users/theme/{$theme}/images/mainvisual-2.png" class="img-fluid" alt="{$article.Title}">
 		</a>
 		<div class="post-desc flex-shrink-1 pb-md-5">
 			<h2 class="post-title fs-4"><a href="{$article.Url}">{$article.Title}</a></h2>
