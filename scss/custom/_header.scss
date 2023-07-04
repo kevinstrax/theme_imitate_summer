@@ -136,13 +136,13 @@
             &.wave1{
                 height: 85px;
                 background-image: url(../images/wave1.png);
-                -webkit-animation: 60s waveMove linear infinite normal;
-                animation: 60s waveMove linear infinite normal;
+                -webkit-animation: 40s waveMove linear infinite normal;
+                animation: 40s waveMove linear infinite normal;
             }
             &.wave2{
                 background-image: url(../images/wave2.png);
-                -webkit-animation: 120s waveMove linear infinite normal;
-                animation: 120s waveMove linear infinite normal;
+                -webkit-animation: 60s waveMove linear infinite normal;
+                animation: 60s waveMove linear infinite normal;
             }
         }
     }
@@ -239,4 +239,72 @@
     #BlogSubTitle {
         opacity: 0;
     }
+}
+
+#bubble-anime {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    list-style: none;
+    overflow: hidden;
+    li {
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #fff;
+        box-shadow: inset 0 0 8px  #fff;
+        border-radius: 50%;
+        opacity: .5;
+        left: 0;
+        bottom: -300px;
+        animation: flying 10s ease-in infinite;
+        $colors: (--bs-blue, --bs-pink, white, white);
+        @for $i from 1 through 20 {
+            $bubble-color: nth($colors, random(length($colors)));
+            &:nth-child(#{$i}) {
+                opacity: min(.3 + random(3) * .1, 1);
+                border: 2px solid var($bubble-color);
+                box-shadow: inset 0 0 8px var($bubble-color);
+                $w: (.7 + random(17) * .1) * 66px;
+                $l: random(100);
+                $b: random(100);
+                width: $w;
+                height: $w;
+                left: $l + 0%;
+                bottom: -1% * $b;
+                animation: flying-#{random(10)} 10s ease-in infinite;
+                animation-duration: 10 + random(10) * 1s;
+                animation-delay: random(15) * 1s;
+            }
+        }
+    }
+
+    // 后面还是要换成js才随机得起来
+    @for $i from 1 through 10 {
+        @keyframes flying-#{$i} {
+            0% {
+                bottom: -300px;
+                transform: translateX(0);
+            }
+            50% {
+                $r: random(300);
+                @if $i %2 == 0 {
+                    $r:$r * -1;
+                }
+                transform: translateX($r * 1px);
+            }
+            100% {
+                $r: random(300);
+                @if $i %2 != 0 {
+                    $r:$r * -1;
+                }
+                bottom: 1000px;
+                transform: translateX($r * 1px);
+            }
+        }
+    }
+    
 }

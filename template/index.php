@@ -23,6 +23,28 @@
       
       <div class="header-wrap container-fluid">
         <div class="header-wrap-box row">
+          <ul id="bubble-anime">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
             <header id="divTop" class="header">
                 <h1 id="BlogTitle" class="col-sm header-logo text-center fw-bold">
                     <a href="{$host}">{$name}<i id="BlogSubTitle" alt="{$subname}"
