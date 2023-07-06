@@ -19,7 +19,7 @@ $(document).ready(function () {
         "https://hidamarirhodonite.kirara.ca/spread/300491.png",
     ];
 
-    $(".index .header-wrap").css("background-image", "url(" + imageUrls.sort(function () {
+    $(".header-wrap").css("background-image", "url(" + imageUrls.sort(function () {
         return .5 - Math.random();
     })[0] + ")");
 });
@@ -27,7 +27,7 @@ $(document).ready(function () {
 
 // header重新设置高度
 const convertStyle = () => {
-    $(".header-wrap").css("height", `${window.innerHeight}px`)
+    $(".index .header-wrap").css("height", `${window.innerHeight}px`)
     // document.body.style.setProperty('height', `${window.innerHeight}px`);
 }
 
