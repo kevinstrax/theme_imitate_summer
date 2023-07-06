@@ -1,6 +1,6 @@
 {* Template Name:列表页普通文章 *}
-<section class="post multi border-light-subtle rounded">
-	<div class="d-flex flex-column flex-md-row p-md-3">
+<section class="post multi border border-light-subtle rounded">
+	<div class="d-flex flex-column flex-md-row p-2 p-md-3 bg-body">
 		<a href="{$article.Url}" class="post-cover flex-grow-1 rounded border border-light me-md-3 mb-1 mb-md-0">
 			<img src="{$host}zb_users/theme/{$theme}/images/mainvisual-2.png" class="img-fluid" alt="{$article.Title}">
 		</a>

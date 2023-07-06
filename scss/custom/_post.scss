@@ -89,10 +89,10 @@
 
 .post.multi {
     transition: .4s;
-    @media screen and (min-width:  map-get($grid-breakpoints, 'md')) {
-        background-color: #fff;
-        border: 1px solid;
-    }
+    // @media screen and (min-width:  map-get($grid-breakpoints, 'md')) {
+    //     background-color: #fff;
+    //     border: 1px solid;
+    // }
     .post-cover {
         overflow: hidden;
         min-width: 300px;
