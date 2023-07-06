@@ -8912,32 +8912,32 @@ a:hover {
 }
 @media screen and (min-width: 0) {
   .article .header-wrap .header-wrap-box .header .header-logo {
-    font-size: 1.925em;
+    font-size: 2.321em;
   }
 }
 @media screen and (min-width: 576px) {
   .article .header-wrap .header-wrap-box .header .header-logo {
-    font-size: 2.345em;
+    font-size: 2.8274em;
   }
 }
 @media screen and (min-width: 768px) {
   .article .header-wrap .header-wrap-box .header .header-logo {
-    font-size: 2.45em;
+    font-size: 2.954em;
   }
 }
 @media screen and (min-width: 992px) {
   .article .header-wrap .header-wrap-box .header .header-logo {
-    font-size: 2.8em;
+    font-size: 3.376em;
   }
 }
 @media screen and (min-width: 1200px) {
   .article .header-wrap .header-wrap-box .header .header-logo {
-    font-size: 3.15em;
+    font-size: 3.798em;
   }
 }
 @media screen and (min-width: 1400px) {
   .article .header-wrap .header-wrap-box .header .header-logo {
-    font-size: 3.5em;
+    font-size: 4.22em;
   }
 }
 
@@ -8973,244 +8973,244 @@ a:hover {
   animation: flying 10s ease-in infinite;
 }
 #bubble-anime li:nth-child(1) {
-  opacity: 0.6;
+  opacity: 0.4;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
-  width: 118.8px;
-  height: 118.8px;
-  left: 4%;
-  bottom: -17%;
-  animation: flying-4 10s ease-in infinite;
-  animation-duration: 17s;
-  animation-delay: 7s;
+  width: 72.6px;
+  height: 72.6px;
+  left: 48%;
+  bottom: -80%;
+  animation: flying-1 10s ease-in infinite;
+  animation-duration: 14s;
+  animation-delay: 6s;
 }
 #bubble-anime li:nth-child(2) {
-  opacity: 0.6;
+  opacity: 0.4;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
-  width: 92.4px;
-  height: 92.4px;
-  left: 81%;
-  bottom: -51%;
-  animation: flying-3 10s ease-in infinite;
-  animation-duration: 16s;
-  animation-delay: 5s;
-}
-#bubble-anime li:nth-child(3) {
-  opacity: 0.5;
-  border: 2px solid var(--bs-blue);
-  box-shadow: inset 0 0 8px var(--bs-blue);
   width: 125.4px;
   height: 125.4px;
-  left: 51%;
-  bottom: -53%;
-  animation: flying-8 10s ease-in infinite;
-  animation-duration: 12s;
-  animation-delay: 12s;
+  left: 44%;
+  bottom: -20%;
+  animation: flying-4 10s ease-in infinite;
+  animation-duration: 18s;
+  animation-delay: 7s;
 }
-#bubble-anime li:nth-child(4) {
-  opacity: 0.4;
-  border: 2px solid var(--bs-pink);
-  box-shadow: inset 0 0 8px var(--bs-pink);
-  width: 118.8px;
-  height: 118.8px;
-  left: 3%;
-  bottom: -77%;
-  animation: flying-3 10s ease-in infinite;
-  animation-duration: 13s;
-  animation-delay: 9s;
-}
-#bubble-anime li:nth-child(5) {
-  opacity: 0.5;
+#bubble-anime li:nth-child(3) {
+  opacity: 0.6;
   border: 2px solid var(--bs-pink);
   box-shadow: inset 0 0 8px var(--bs-pink);
   width: 85.8px;
   height: 85.8px;
-  left: 28%;
-  bottom: -72%;
-  animation: flying-3 10s ease-in infinite;
-  animation-duration: 19s;
-  animation-delay: 12s;
+  left: 35%;
+  bottom: -50%;
+  animation: flying-5 10s ease-in infinite;
+  animation-duration: 15s;
+  animation-delay: 7s;
 }
-#bubble-anime li:nth-child(6) {
+#bubble-anime li:nth-child(4) {
   opacity: 0.4;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
-  width: 132px;
-  height: 132px;
-  left: 94%;
-  bottom: -70%;
-  animation: flying-9 10s ease-in infinite;
-  animation-duration: 20s;
+  width: 151.8px;
+  height: 151.8px;
+  left: 89%;
+  bottom: -43%;
+  animation: flying-6 10s ease-in infinite;
+  animation-duration: 19s;
   animation-delay: 8s;
 }
-#bubble-anime li:nth-child(7) {
-  opacity: 0.4;
-  border: 2px solid var(--bs-pink);
-  box-shadow: inset 0 0 8px var(--bs-pink);
-  width: 118.8px;
-  height: 118.8px;
-  left: 38%;
-  bottom: -48%;
-  animation: flying-7 10s ease-in infinite;
-  animation-duration: 20s;
-  animation-delay: 6s;
-}
-#bubble-anime li:nth-child(8) {
-  opacity: 0.4;
+#bubble-anime li:nth-child(5) {
+  opacity: 0.5;
   border: 2px solid var(--bs-blue);
   box-shadow: inset 0 0 8px var(--bs-blue);
-  width: 132px;
-  height: 132px;
-  left: 78%;
-  bottom: -65%;
+  width: 92.4px;
+  height: 92.4px;
+  left: 93%;
+  bottom: -26%;
   animation: flying-1 10s ease-in infinite;
-  animation-duration: 16s;
+  animation-duration: 18s;
+  animation-delay: 3s;
+}
+#bubble-anime li:nth-child(6) {
+  opacity: 0.5;
+  border: 2px solid var(--bs-pink);
+  box-shadow: inset 0 0 8px var(--bs-pink);
+  width: 125.4px;
+  height: 125.4px;
+  left: 7%;
+  bottom: -39%;
+  animation: flying-1 10s ease-in infinite;
+  animation-duration: 12s;
   animation-delay: 15s;
+}
+#bubble-anime li:nth-child(7) {
+  opacity: 0.6;
+  border: 2px solid var(--bs-pink);
+  box-shadow: inset 0 0 8px var(--bs-pink);
+  width: 59.4px;
+  height: 59.4px;
+  left: 20%;
+  bottom: -14%;
+  animation: flying-5 10s ease-in infinite;
+  animation-duration: 14s;
+  animation-delay: 3s;
+}
+#bubble-anime li:nth-child(8) {
+  opacity: 0.6;
+  border: 2px solid var(--bs-blue);
+  box-shadow: inset 0 0 8px var(--bs-blue);
+  width: 145.2px;
+  height: 145.2px;
+  left: 69%;
+  bottom: -34%;
+  animation: flying-6 10s ease-in infinite;
+  animation-duration: 20s;
+  animation-delay: 5s;
 }
 #bubble-anime li:nth-child(9) {
   opacity: 0.6;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
-  width: 66px;
-  height: 66px;
-  left: 73%;
-  bottom: -45%;
-  animation: flying-3 10s ease-in infinite;
-  animation-duration: 16s;
-  animation-delay: 13s;
-}
-#bubble-anime li:nth-child(10) {
-  opacity: 0.6;
-  border: 2px solid var(--bs-pink);
-  box-shadow: inset 0 0 8px var(--bs-pink);
-  width: 125.4px;
-  height: 125.4px;
-  left: 77%;
-  bottom: -86%;
-  animation: flying-2 10s ease-in infinite;
-  animation-duration: 20s;
-  animation-delay: 14s;
-}
-#bubble-anime li:nth-child(11) {
-  opacity: 0.4;
-  border: 2px solid var(--bs-pink);
-  box-shadow: inset 0 0 8px var(--bs-pink);
-  width: 72.6px;
-  height: 72.6px;
-  left: 24%;
-  bottom: -94%;
-  animation: flying-8 10s ease-in infinite;
-  animation-duration: 19s;
-  animation-delay: 5s;
-}
-#bubble-anime li:nth-child(12) {
-  opacity: 0.6;
-  border: 2px solid var(--bs-pink);
-  box-shadow: inset 0 0 8px var(--bs-pink);
-  width: 85.8px;
-  height: 85.8px;
-  left: 40%;
-  bottom: -16%;
+  width: 112.2px;
+  height: 112.2px;
+  left: 23%;
+  bottom: -90%;
   animation: flying-7 10s ease-in infinite;
   animation-duration: 11s;
-  animation-delay: 8s;
+  animation-delay: 14s;
 }
-#bubble-anime li:nth-child(13) {
+#bubble-anime li:nth-child(10) {
   opacity: 0.4;
+  border: 2px solid var(white);
+  box-shadow: inset 0 0 8px var(white);
+  width: 118.8px;
+  height: 118.8px;
+  left: 87%;
+  bottom: -55%;
+  animation: flying-9 10s ease-in infinite;
+  animation-duration: 20s;
+  animation-delay: 2s;
+}
+#bubble-anime li:nth-child(11) {
+  opacity: 0.5;
   border: 2px solid var(--bs-blue);
   box-shadow: inset 0 0 8px var(--bs-blue);
-  width: 151.8px;
-  height: 151.8px;
-  left: 59%;
-  bottom: -78%;
-  animation: flying-4 10s ease-in infinite;
-  animation-duration: 17s;
+  width: 59.4px;
+  height: 59.4px;
+  left: 58%;
+  bottom: -91%;
+  animation: flying-8 10s ease-in infinite;
+  animation-duration: 12s;
   animation-delay: 7s;
 }
-#bubble-anime li:nth-child(14) {
+#bubble-anime li:nth-child(12) {
   opacity: 0.4;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
   width: 105.6px;
   height: 105.6px;
-  left: 96%;
-  bottom: -6%;
-  animation: flying-3 10s ease-in infinite;
-  animation-duration: 15s;
-  animation-delay: 11s;
+  left: 49%;
+  bottom: -2%;
+  animation: flying-2 10s ease-in infinite;
+  animation-duration: 16s;
+  animation-delay: 10s;
+}
+#bubble-anime li:nth-child(13) {
+  opacity: 0.6;
+  border: 2px solid var(--bs-pink);
+  box-shadow: inset 0 0 8px var(--bs-pink);
+  width: 59.4px;
+  height: 59.4px;
+  left: 47%;
+  bottom: -7%;
+  animation: flying-1 10s ease-in infinite;
+  animation-duration: 13s;
+  animation-delay: 9s;
+}
+#bubble-anime li:nth-child(14) {
+  opacity: 0.4;
+  border: 2px solid var(white);
+  box-shadow: inset 0 0 8px var(white);
+  width: 151.8px;
+  height: 151.8px;
+  left: 100%;
+  bottom: -88%;
+  animation: flying-4 10s ease-in infinite;
+  animation-duration: 17s;
+  animation-delay: 15s;
 }
 #bubble-anime li:nth-child(15) {
   opacity: 0.6;
   border: 2px solid var(--bs-pink);
   box-shadow: inset 0 0 8px var(--bs-pink);
-  width: 72.6px;
-  height: 72.6px;
-  left: 83%;
-  bottom: -64%;
-  animation: flying-4 10s ease-in infinite;
-  animation-duration: 18s;
-  animation-delay: 1s;
+  width: 138.6px;
+  height: 138.6px;
+  left: 13%;
+  bottom: -39%;
+  animation: flying-5 10s ease-in infinite;
+  animation-duration: 15s;
+  animation-delay: 9s;
 }
 #bubble-anime li:nth-child(16) {
-  opacity: 0.6;
+  opacity: 0.5;
+  border: 2px solid var(--bs-blue);
+  box-shadow: inset 0 0 8px var(--bs-blue);
+  width: 92.4px;
+  height: 92.4px;
+  left: 6%;
+  bottom: -12%;
+  animation: flying-5 10s ease-in infinite;
+  animation-duration: 15s;
+  animation-delay: 4s;
+}
+#bubble-anime li:nth-child(17) {
+  opacity: 0.4;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
-  width: 145.2px;
-  height: 145.2px;
-  left: 50%;
-  bottom: -61%;
-  animation: flying-9 10s ease-in infinite;
+  width: 118.8px;
+  height: 118.8px;
+  left: 58%;
+  bottom: -83%;
+  animation: flying-2 10s ease-in infinite;
   animation-duration: 20s;
   animation-delay: 8s;
 }
-#bubble-anime li:nth-child(17) {
-  opacity: 0.5;
-  border: 2px solid var(white);
-  box-shadow: inset 0 0 8px var(white);
-  width: 158.4px;
-  height: 158.4px;
-  left: 76%;
-  bottom: -65%;
-  animation: flying-6 10s ease-in infinite;
-  animation-duration: 19s;
-  animation-delay: 10s;
-}
 #bubble-anime li:nth-child(18) {
-  opacity: 0.4;
-  border: 2px solid var(--bs-blue);
-  box-shadow: inset 0 0 8px var(--bs-blue);
-  width: 52.8px;
-  height: 52.8px;
-  left: 93%;
-  bottom: -31%;
-  animation: flying-5 10s ease-in infinite;
-  animation-duration: 15s;
-  animation-delay: 6s;
+  opacity: 0.6;
+  border: 2px solid var(--bs-pink);
+  box-shadow: inset 0 0 8px var(--bs-pink);
+  width: 151.8px;
+  height: 151.8px;
+  left: 44%;
+  bottom: -18%;
+  animation: flying-2 10s ease-in infinite;
+  animation-duration: 11s;
+  animation-delay: 11s;
 }
 #bubble-anime li:nth-child(19) {
   opacity: 0.5;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
-  width: 138.6px;
-  height: 138.6px;
-  left: 96%;
-  bottom: -48%;
-  animation: flying-9 10s ease-in infinite;
-  animation-duration: 14s;
-  animation-delay: 1s;
+  width: 59.4px;
+  height: 59.4px;
+  left: 69%;
+  bottom: -57%;
+  animation: flying-3 10s ease-in infinite;
+  animation-duration: 19s;
+  animation-delay: 9s;
 }
 #bubble-anime li:nth-child(20) {
-  opacity: 0.6;
+  opacity: 0.5;
   border: 2px solid var(white);
   box-shadow: inset 0 0 8px var(white);
-  width: 92.4px;
-  height: 92.4px;
-  left: 56%;
-  bottom: -99%;
-  animation: flying-1 10s ease-in infinite;
-  animation-duration: 20s;
-  animation-delay: 6s;
+  width: 79.2px;
+  height: 79.2px;
+  left: 20%;
+  bottom: -47%;
+  animation: flying-4 10s ease-in infinite;
+  animation-duration: 13s;
+  animation-delay: 3s;
 }
 @keyframes flying-1 {
   0% {
@@ -9218,11 +9218,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(235px);
+    transform: translateX(23px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(-6px);
+    transform: translateX(-52px);
   }
 }
 @keyframes flying-2 {
@@ -9231,11 +9231,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-135px);
+    transform: translateX(-138px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(153px);
+    transform: translateX(26px);
   }
 }
 @keyframes flying-3 {
@@ -9244,11 +9244,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(35px);
+    transform: translateX(80px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(-272px);
+    transform: translateX(-291px);
   }
 }
 @keyframes flying-4 {
@@ -9257,11 +9257,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-81px);
+    transform: translateX(-38px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(82px);
+    transform: translateX(290px);
   }
 }
 @keyframes flying-5 {
@@ -9270,11 +9270,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(215px);
+    transform: translateX(62px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(-204px);
+    transform: translateX(-127px);
   }
 }
 @keyframes flying-6 {
@@ -9283,11 +9283,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-226px);
+    transform: translateX(-214px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(278px);
+    transform: translateX(275px);
   }
 }
 @keyframes flying-7 {
@@ -9296,11 +9296,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(299px);
+    transform: translateX(87px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(-271px);
+    transform: translateX(-96px);
   }
 }
 @keyframes flying-8 {
@@ -9309,11 +9309,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-84px);
+    transform: translateX(-286px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(59px);
+    transform: translateX(188px);
   }
 }
 @keyframes flying-9 {
@@ -9322,11 +9322,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(296px);
+    transform: translateX(199px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(-139px);
+    transform: translateX(-141px);
   }
 }
 @keyframes flying-10 {
@@ -9335,11 +9335,11 @@ a:hover {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(-207px);
+    transform: translateX(-166px);
   }
   100% {
     bottom: 1000px;
-    transform: translateX(45px);
+    transform: translateX(89px);
   }
 }
 
