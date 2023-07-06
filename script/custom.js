@@ -19,7 +19,7 @@ $(document).ready(function () {
         "https://hidamarirhodonite.kirara.ca/spread/300491.png",
     ];
 
-    $(".header-wrap").css("background-image", "url(" + imageUrls.sort(function () {
+    $(".index .header-wrap").css("background-image", "url(" + imageUrls.sort(function () {
         return .5 - Math.random();
     })[0] + ")");
 });
