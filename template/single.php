@@ -35,18 +35,6 @@
     <div class="container pt-5" id="divAll">
     
       <div id="divMiddle">
-        <div class="header-wrap">
-          <header id="divTop" class="row header">
-            <h1 id="BlogTitle" class="col-sm header-logo">
-		 <a href="{$host}">{$name}<img id="BlogSubTitle" alt="{$subname}" src="https://image.aquac.cc/website/aquac/2023/06/202306125294_7344.png"/></a>
-	        </h1>
-          </header>
-          <nav id="divNavBar" class="row">
-            <ul class="col-md nav">
-              {$modules['navbar'].Content}
-            </ul>
-          </nav>
-        </div>
         <div class="row main-content">
           <div id="divMain" class="col-lg-9 order-lg-2">
             {if $article.Type==ZC_POST_TYPE_ARTICLE}
