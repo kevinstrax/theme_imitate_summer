@@ -23,17 +23,17 @@
   <div class="header-wrap container-fluid">
       <div class="header-wrap-box row">
           <header id="divTop" class="header">
-              <h1 id="BlogTitle" class="col-sm header-logo text-center fw-bold">
-                  <a href="{$host}">{$name}<i id="BlogSubTitle" alt="{$subname}"
-                          style="background-image: url(https://image.aquac.cc/website/aquac/2023/06/202306125294_7344.png);"></i></a>
+              <h1 id="BlogTitle" class="col-sm header-logo text-center fw-bold text-white">
+                {$article.Title}
               </h1>
           </header>
           <span class="header-wave wave1"></span>
           <span class="header-wave wave2"></span>
       </div>
   </div>
-  <div class="container" id="divAll">
-    <div id="divPage">
+  <div id="divPage">
+    <div class="container pt-5" id="divAll">
+    
       <div id="divMiddle">
         <div class="header-wrap">
           <header id="divTop" class="row header">

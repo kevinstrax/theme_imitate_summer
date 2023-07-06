@@ -24,4 +24,5 @@
 /app/Config/database.php
 /vendors/*
 test_index.html
+test_article.html
 .vs/

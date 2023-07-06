@@ -1,7 +1,7 @@
 {* Template Name:评论发布框 *}
 <div class="post" id="divCommentPost">
 	<p class="posttop">
-		<a name="comment">{if $user.ID>0}{$user.StaticName}{/if}发表评论:</a>
+		<label for="txaArticle" class="form-label"><a name="comment">{if $user.ID>0}{$user.StaticName}{/if}发表评论:</a></label>
 		<a rel="nofollow" id="cancel-reply" href="#divCommentPost" style="display:none;"><small>取消回复</small></a></p>
 	<form id="frmSumbit" target="_self" method="post" action="{$article.CommentPostUrl}" >
 	<input type="hidden" name="inpId" id="inpId" value="{$article.ID}" />
@@ -17,8 +17,8 @@
 	{template:commentpost-verify}
 {/if}
 	<p style="display:none;"><label for="txaArticle">{$lang['msg']['content']}(*)</label></p>
-	<p><textarea name="txaArticle" id="txaArticle" class="text" cols="50" rows="4" tabindex="5" ></textarea></p>
-	<p><input name="sumbit" type="submit" tabindex="6" value="提交" onclick="return zbp.comment.post()" class="button" /></p>
+	<p><textarea class="form-control" name="txaArticle" id="txaArticle" class="text" rows="4" tabindex="5" ></textarea></p>
+	<p><input class="btn btn-primary mb-3" name="sumbit" type="submit" tabindex="6" value="提交" onclick="return zbp.comment.post()" class="button" /></p>
 	</form>
 	<p class="postbottom">{$lang['theme_imitate_summer']['reply_notice']}</p>
 </div>

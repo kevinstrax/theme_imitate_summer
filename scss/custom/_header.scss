@@ -274,6 +274,57 @@
     // }
 }
 
+.article {
+    .header-wrap {
+        height: 45vh;
+        background-attachment: inherit;
+        .header-wrap-box {
+            .header {
+                // padding-top: 30px;
+                // padding-bottom: 30px;
+                // height: 106px;
+                $logo-font-size: 3.5em;
+    
+                @media screen and (min-width: map-get($grid-breakpoints, 'xs')) {
+                    .header-logo {
+                        font-size: $logo-font-size * .55;
+                    }
+                }
+    
+                @media screen and (min-width: map-get($grid-breakpoints, 'sm')) {
+                    .header-logo {
+                        font-size: $logo-font-size * .67;
+                    }
+                }
+    
+                @media screen and (min-width: map-get($grid-breakpoints, 'md')) {
+                    .header-logo {
+                        font-size: $logo-font-size * .7;
+                    }
+                }
+    
+                @media screen and (min-width: map-get($grid-breakpoints, 'lg')) {
+                    .header-logo {
+                        font-size: $logo-font-size * .8;
+                    }
+                }
+    
+                @media screen and (min-width: map-get($grid-breakpoints, 'xl')) {
+                    .header-logo {
+                        font-size: $logo-font-size * .9;
+                    }
+                }
+    
+                @media screen and (min-width: map-get($grid-breakpoints, 'xxl')) {
+                    .header-logo {
+                        font-size: $logo-font-size;
+                    }
+                }
+            }
+        }
+    }
+}
+
 #BlogTitle>a:hover {
     transform: translateY(-10px);
     text-shadow: 6px 6px 23px var(--bs-pink);
